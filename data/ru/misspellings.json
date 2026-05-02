@@ -1,0 +1,850 @@
+{
+  "version": 1,
+  "language": "ru",
+  "entries": [
+    {
+      "source": "библиотека",
+      "variants": [{ "value": "библеотека" }],
+      "probability": 0.36
+    },
+    {
+      "source": "деньги",
+      "variants": [{ "value": "денги" }],
+      "probability": 0.32
+    },
+    {
+      "source": "если",
+      "variants": [{ "value": "есле" }, { "value": "елси" }],
+      "probability": 0.3
+    },
+    {
+      "source": "здесь",
+      "variants": [{ "value": "здес" }, { "value": "тут" }, { "value": "дзесь" }],
+      "probability": 0.32
+    },
+    {
+      "source": "извините",
+      "variants": [{ "value": "извените" }, { "value": "сорян" }],
+      "probability": 0.34
+    },
+    {
+      "source": "кажется",
+      "variants": [{ "value": "кажеца" }],
+      "probability": 0.4
+    },
+    {
+      "source": "лучше",
+      "variants": [{ "value": "лутше" }, { "value": "лудше" }],
+      "probability": 0.35
+    },
+    {
+      "source": "может",
+      "variants": [{ "value": "можыт" }, { "value": "может типа" }],
+      "probability": 0.34
+    },
+    {
+      "source": "ничего",
+      "variants": [{ "value": "ничо" }, { "value": "ничево" }, { "value": "ничеог" }],
+      "probability": 0.4
+    },
+    {
+      "source": "примерно",
+      "variants": [{ "value": "премерно" }, { "value": "примерн" }],
+      "probability": 0.34
+    },
+    {
+      "source": "сегодня",
+      "variants": [{ "value": "севодня" }, { "value": "сегодян" }],
+      "probability": 0.4
+    },
+    {
+      "source": "серьезно",
+      "variants": [{ "value": "сириозна" }, { "value": "серьезнааа" }],
+      "probability": 0.36
+    },
+    {
+      "source": "теперь",
+      "variants": [{ "value": "типерь" }, { "value": "теепрь" }],
+      "probability": 0.32
+    },
+    {
+      "source": "превращает",
+      "variants": [{ "value": "превращаит" }, { "value": "превращаетт" }],
+      "probability": 0.44
+    },
+    {
+      "source": "вставляет",
+      "variants": [{ "value": "вставляит" }, { "value": "вставляетт" }],
+      "probability": 0.42
+    },
+    {
+      "source": "бессмысленные",
+      "variants": [{ "value": "бесмысленные" }, { "value": "бессмысленые" }],
+      "probability": 0.42
+    },
+    {
+      "source": "естественных",
+      "variants": [{ "value": "естественых" }, { "value": "естественненьких" }],
+      "probability": 0.38
+    },
+    {
+      "source": "специально",
+      "variants": [{ "value": "специальна" }, { "value": "специальнооо" }],
+      "probability": 0.5
+    },
+    {
+      "source": "искажаются",
+      "variants": [{ "value": "искажаюца", "weight": 2 }, { "value": "искажаютсяь" }],
+      "probability": 0.56
+    },
+    {
+      "source": "типичных",
+      "variants": [{ "value": "типичненьких" }, { "value": "типичныхх" }],
+      "probability": 0.42
+    },
+    {
+      "source": "ошибок",
+      "variants": [{ "value": "ашибок" }, { "value": "ошибочек" }],
+      "probability": 0.52
+    },
+    {
+      "source": "округлять",
+      "variants": [{ "value": "округляца" }, { "value": "округлятьь" }],
+      "probability": 0.45
+    },
+    {
+      "source": "писать",
+      "variants": [{ "value": "песать" }, { "value": "писатьь" }, { "value": "писаьт" }],
+      "probability": 0.42
+    },
+    {
+      "source": "словами",
+      "variants": [{ "value": "словамиии" }, { "value": "словечками" }],
+      "probability": 0.48
+    },
+    {
+      "source": "больше",
+      "variants": [{ "value": "больеш" }]
+    },
+    {
+      "source": "большой",
+      "variants": [{ "value": "большйо" }]
+    },
+    {
+      "source": "борьба",
+      "variants": [{ "value": "борбьа" }]
+    },
+    {
+      "source": "будет",
+      "variants": [{ "value": "буедт" }]
+    },
+    {
+      "source": "будто",
+      "variants": [{ "value": "бутдо" }]
+    },
+    {
+      "source": "был",
+      "variants": [{ "value": "блы" }]
+    },
+    {
+      "source": "быстро",
+      "variants": [{ "value": "ыбстро" }]
+    },
+    {
+      "source": "быть",
+      "variants": [{ "value": "ыбть" }]
+    },
+    {
+      "source": "важный",
+      "variants": [{ "value": "важнйы" }]
+    },
+    {
+      "source": "ваш",
+      "variants": [{ "value": "авш" }]
+    },
+    {
+      "source": "вдруг",
+      "variants": [{ "value": "вдргу" }]
+    },
+    {
+      "source": "ведь",
+      "variants": [{ "value": "веьд" }]
+    },
+    {
+      "source": "великий",
+      "variants": [{ "value": "виликий" }]
+    },
+    {
+      "source": "вести",
+      "variants": [{ "value": "евсти" }]
+    },
+    {
+      "source": "весь",
+      "variants": [{ "value": "евсь" }]
+    },
+    {
+      "source": "взгляд",
+      "variants": [{ "value": "взлгяд" }]
+    },
+    {
+      "source": "взять",
+      "variants": [{ "value": "взяьт" }]
+    },
+    {
+      "source": "видать",
+      "variants": [{ "value": "видаьт" }]
+    },
+    {
+      "source": "видеть",
+      "variants": [{ "value": "видеьт" }]
+    },
+    {
+      "source": "вместе",
+      "variants": [{ "value": "вемсте" }]
+    },
+    {
+      "source": "вообще",
+      "variants": [{ "value": "вобще" }]
+    },
+    {
+      "source": "вопрос",
+      "variants": [{ "value": "ворпос" }]
+    },
+    {
+      "source": "время",
+      "variants": [{ "value": "врмея" }]
+    },
+    {
+      "source": "всегда",
+      "variants": [{ "value": "свегда" }]
+    },
+    {
+      "source": "всякий",
+      "variants": [{ "value": "свякий" }]
+    },
+    {
+      "source": "второй",
+      "variants": [{ "value": "вотрой" }]
+    },
+    {
+      "source": "входить",
+      "variants": [{ "value": "входиьт" }]
+    },
+    {
+      "source": "вы",
+      "variants": [{ "value": "ыв" }]
+    },
+    {
+      "source": "выйти",
+      "variants": [{ "value": "выйит" }]
+    },
+    {
+      "source": "высокий",
+      "variants": [{ "value": "высоикй" }]
+    },
+    {
+      "source": "выходить",
+      "variants": [{ "value": "выходиьт" }]
+    },
+    {
+      "source": "главный",
+      "variants": [{ "value": "лгавный" }]
+    },
+    {
+      "source": "говорить",
+      "variants": [{ "value": "огворить" }]
+    },
+    {
+      "source": "голова",
+      "variants": [{ "value": "оглова" }]
+    },
+    {
+      "source": "голос",
+      "variants": [{ "value": "оглос" }]
+    },
+    {
+      "source": "давать",
+      "variants": [{ "value": "даваьт" }]
+    },
+    {
+      "source": "давно",
+      "variants": [{ "value": "двано" }]
+    },
+    {
+      "source": "даже",
+      "variants": [{ "value": "даеж" }]
+    },
+    {
+      "source": "дать",
+      "variants": [{ "value": "даьт" }]
+    },
+    {
+      "source": "дверь",
+      "variants": [{ "value": "вдерь" }]
+    },
+    {
+      "source": "делать",
+      "variants": [{ "value": "деалть" }]
+    },
+    {
+      "source": "дело",
+      "variants": [{ "value": "деол" }]
+    },
+    {
+      "source": "день",
+      "variants": [{ "value": "еднь" }]
+    },
+    {
+      "source": "для",
+      "variants": [{ "value": "лдя" }]
+    },
+    {
+      "source": "долго",
+      "variants": [{ "value": "длого" }]
+    },
+    {
+      "source": "должен",
+      "variants": [{ "value": "дложен" }]
+    },
+    {
+      "source": "дом",
+      "variants": [{ "value": "дмо" }]
+    },
+    {
+      "source": "дорога",
+      "variants": [{ "value": "доорга" }]
+    },
+    {
+      "source": "другой",
+      "variants": [{ "value": "другйо" }]
+    },
+    {
+      "source": "думать",
+      "variants": [{ "value": "дуамть" }]
+    },
+    {
+      "source": "есть",
+      "variants": [{ "value": "есьт" }]
+    },
+    {
+      "source": "жизнь",
+      "variants": [{ "value": "жихнь" }]
+    },
+    {
+      "source": "жить",
+      "variants": [{ "value": "жиьт" }]
+    },
+    {
+      "source": "запись",
+      "variants": [{ "value": "заись" }]
+    },
+    {
+      "source": "знать",
+      "variants": [{ "value": "знаьт" }]
+    },
+    {
+      "source": "значить",
+      "variants": [{ "value": "значиьт" }]
+    },
+    {
+      "source": "идти",
+      "variants": [{ "value": "итти" }]
+    },
+    {
+      "source": "или",
+      "variants": [{ "value": "иль" }]
+    },
+    {
+      "source": "именно",
+      "variants": [{ "value": "миенно" }]
+    },
+    {
+      "source": "иметь",
+      "variants": [{ "value": "миеть" }]
+    },
+    {
+      "source": "интерес",
+      "variants": [{ "value": "нитерес" }]
+    },
+    {
+      "source": "инцидент",
+      "variants": [{ "value": "инциндент" }]
+    },
+    {
+      "source": "каждый",
+      "variants": [{ "value": "каджый" }]
+    },
+    {
+      "source": "казаться",
+      "variants": [{ "value": "казаьтся" }]
+    },
+    {
+      "source": "как",
+      "variants": [{ "value": "каак" }]
+    },
+    {
+      "source": "какой",
+      "variants": [{ "value": "какйо" }]
+    },
+    {
+      "source": "камень",
+      "variants": [{ "value": "каемнь" }]
+    },
+    {
+      "source": "книга",
+      "variants": [{ "value": "кнгиа" }]
+    },
+    {
+      "source": "когда",
+      "variants": [{ "value": "кодга" }]
+    },
+    {
+      "source": "комната",
+      "variants": [{ "value": "конмата" }]
+    },
+    {
+      "source": "конец",
+      "variants": [{ "value": "коенц" }]
+    },
+    {
+      "source": "которой",
+      "variants": [{ "value": "которйо" }]
+    },
+    {
+      "source": "который",
+      "variants": [{ "value": "коотрый" }]
+    },
+    {
+      "source": "куда",
+      "variants": [{ "value": "укда" }]
+    },
+    {
+      "source": "легко",
+      "variants": [{ "value": "лекго" }]
+    },
+    {
+      "source": "лето",
+      "variants": [{ "value": "леот" }]
+    },
+    {
+      "source": "лицо",
+      "variants": [{ "value": "лийо" }]
+    },
+    {
+      "source": "лишь",
+      "variants": [{ "value": "лиьш" }]
+    },
+    {
+      "source": "любить",
+      "variants": [{ "value": "любтиь" }]
+    },
+    {
+      "source": "люди",
+      "variants": [{ "value": "лдюи" }]
+    },
+    {
+      "source": "между",
+      "variants": [{ "value": "меджу" }]
+    },
+    {
+      "source": "место",
+      "variants": [{ "value": "метсо" }]
+    },
+    {
+      "source": "много",
+      "variants": [{ "value": "мнгог" }]
+    },
+    {
+      "source": "можно",
+      "variants": [{ "value": "можна" }]
+    },
+    {
+      "source": "мой",
+      "variants": [{ "value": "омй" }]
+    },
+    {
+      "source": "молодой",
+      "variants": [{ "value": "млодой" }]
+    },
+    {
+      "source": "мочь",
+      "variants": [{ "value": "омчь" }]
+    },
+    {
+      "source": "найти",
+      "variants": [{ "value": "найит" }]
+    },
+    {
+      "source": "например",
+      "variants": [{ "value": "напирмер" }]
+    },
+    {
+      "source": "наука",
+      "variants": [{ "value": "накуа" }]
+    },
+    {
+      "source": "начало",
+      "variants": [{ "value": "начаол" }]
+    },
+    {
+      "source": "начать",
+      "variants": [{ "value": "начаьт" }]
+    },
+    {
+      "source": "нельзя",
+      "variants": [{ "value": "нелзя" }]
+    },
+    {
+      "source": "несколько",
+      "variants": [{ "value": "нексолько" }]
+    },
+    {
+      "source": "нет",
+      "variants": [{ "value": "нте" }]
+    },
+    {
+      "source": "ничто",
+      "variants": [{ "value": "ничот" }]
+    },
+    {
+      "source": "новый",
+      "variants": [{ "value": "ноывй" }]
+    },
+    {
+      "source": "нога",
+      "variants": [{ "value": "нгоа" }]
+    },
+    {
+      "source": "номер",
+      "variants": [{ "value": "носер" }]
+    },
+    {
+      "source": "ночь",
+      "variants": [{ "value": "ноьч" }]
+    },
+    {
+      "source": "однако",
+      "variants": [{ "value": "оданко" }]
+    },
+    {
+      "source": "около",
+      "variants": [{ "value": "окоол" }]
+    },
+    {
+      "source": "опять",
+      "variants": [{ "value": "опяьт" }]
+    },
+    {
+      "source": "основной",
+      "variants": [{ "value": "основнйо" }]
+    },
+    {
+      "source": "оставить",
+      "variants": [{ "value": "оставиьт" }]
+    },
+    {
+      "source": "открыть",
+      "variants": [{ "value": "открыьт" }]
+    },
+    {
+      "source": "первый",
+      "variants": [{ "value": "превый" }]
+    },
+    {
+      "source": "перед",
+      "variants": [{ "value": "преед" }]
+    },
+    {
+      "source": "пойти",
+      "variants": [{ "value": "пйоти" }]
+    },
+    {
+      "source": "пока",
+      "variants": [{ "value": "пкоа" }]
+    },
+    {
+      "source": "полный",
+      "variants": [{ "value": "полнйы" }]
+    },
+    {
+      "source": "понимать",
+      "variants": [{ "value": "понимаьт" }]
+    },
+    {
+      "source": "пора",
+      "variants": [{ "value": "поар" }]
+    },
+    {
+      "source": "после",
+      "variants": [{ "value": "опсле" }]
+    },
+    {
+      "source": "последний",
+      "variants": [{ "value": "полседний" }]
+    },
+    {
+      "source": "потом",
+      "variants": [{ "value": "поотм" }]
+    },
+    {
+      "source": "потому",
+      "variants": [{ "value": "поотум" }]
+    },
+    {
+      "source": "почему",
+      "variants": [{ "value": "поечму" }]
+    },
+    {
+      "source": "поэтому",
+      "variants": [{ "value": "опэтому" }]
+    },
+    {
+      "source": "правда",
+      "variants": [{ "value": "прадва" }]
+    },
+    {
+      "source": "право",
+      "variants": [{ "value": "првао" }]
+    },
+    {
+      "source": "прецедент",
+      "variants": [{ "value": "прецендент" }]
+    },
+    {
+      "source": "прийти",
+      "variants": [{ "value": "прийит" }]
+    },
+    {
+      "source": "принять",
+      "variants": [{ "value": "приняьт" }]
+    },
+    {
+      "source": "просто",
+      "variants": [{ "value": "рпосто" }]
+    },
+    {
+      "source": "против",
+      "variants": [{ "value": "проитв" }]
+    },
+    {
+      "source": "работа",
+      "variants": [{ "value": "раобта" }]
+    },
+    {
+      "source": "работать",
+      "variants": [{ "value": "раобтать" }]
+    },
+    {
+      "source": "развитие",
+      "variants": [{ "value": "равзитие" }]
+    },
+    {
+      "source": "рука",
+      "variants": [{ "value": "ркуа" }]
+    },
+    {
+      "source": "сам",
+      "variants": [{ "value": "асм" }]
+    },
+    {
+      "source": "самый",
+      "variants": [{ "value": "смаый" }]
+    },
+    {
+      "source": "свет",
+      "variants": [{ "value": "свте" }]
+    },
+    {
+      "source": "свой",
+      "variants": [{ "value": "свйо" }]
+    },
+    {
+      "source": "сделать",
+      "variants": [{ "value": "сделаьт" }]
+    },
+    {
+      "source": "себя",
+      "variants": [{ "value": "есбя" }]
+    },
+    {
+      "source": "сейчас",
+      "variants": [{ "value": "сейачс" }]
+    },
+    {
+      "source": "сидеть",
+      "variants": [{ "value": "сидеьт" }]
+    },
+    {
+      "source": "сказать",
+      "variants": [{ "value": "сакзать" }]
+    },
+    {
+      "source": "сколько",
+      "variants": [{ "value": "скоьлко" }]
+    },
+    {
+      "source": "следовать",
+      "variants": [{ "value": "слеодвать" }]
+    },
+    {
+      "source": "слово",
+      "variants": [{ "value": "солво" }]
+    },
+    {
+      "source": "случай",
+      "variants": [{ "value": "слуачй" }]
+    },
+    {
+      "source": "слышать",
+      "variants": [{ "value": "слыашть" }]
+    },
+    {
+      "source": "смотреть",
+      "variants": [{ "value": "смортеть" }]
+    },
+    {
+      "source": "совсем",
+      "variants": [{ "value": "сосвем" }]
+    },
+    {
+      "source": "спросить",
+      "variants": [{ "value": "српосить" }]
+    },
+    {
+      "source": "сразу",
+      "variants": [{ "value": "сарзу" }]
+    },
+    {
+      "source": "старший",
+      "variants": [{ "value": "сташрый" }]
+    },
+    {
+      "source": "стекло",
+      "variants": [{ "value": "стелко" }]
+    },
+    {
+      "source": "сторона",
+      "variants": [{ "value": "сотрона" }]
+    },
+    {
+      "source": "стоять",
+      "variants": [{ "value": "сотять" }]
+    },
+    {
+      "source": "страна",
+      "variants": [{ "value": "тсрана" }]
+    },
+    {
+      "source": "сюда",
+      "variants": [{ "value": "сдюа" }]
+    },
+    {
+      "source": "также",
+      "variants": [{ "value": "такеж" }]
+    },
+    {
+      "source": "такое",
+      "variants": [{ "value": "ткаое" }]
+    },
+    {
+      "source": "такой",
+      "variants": [{ "value": "такйо" }]
+    },
+    {
+      "source": "твой",
+      "variants": [{ "value": "твйо" }]
+    },
+    {
+      "source": "тихо",
+      "variants": [{ "value": "итхо" }]
+    },
+    {
+      "source": "тогда",
+      "variants": [{ "value": "отгда" }]
+    },
+    {
+      "source": "тоже",
+      "variants": [{ "value": "тоеж" }]
+    },
+    {
+      "source": "только",
+      "variants": [{ "value": "тоьлко" }]
+    },
+    {
+      "source": "точно",
+      "variants": [{ "value": "отчно" }]
+    },
+    {
+      "source": "требовать",
+      "variants": [{ "value": "тербовать" }]
+    },
+    {
+      "source": "труд",
+      "variants": [{ "value": "ртуд" }]
+    },
+    {
+      "source": "трудно",
+      "variants": [{ "value": "ртудно" }]
+    },
+    {
+      "source": "тысяча",
+      "variants": [{ "value": "тысича" }]
+    },
+    {
+      "source": "увидеть",
+      "variants": [{ "value": "уивдеть" }]
+    },
+    {
+      "source": "уйти",
+      "variants": [{ "value": "уйит" }]
+    },
+    {
+      "source": "функция",
+      "variants": [{ "value": "фуекция" }]
+    },
+    {
+      "source": "хороший",
+      "variants": [{ "value": "хоорший" }]
+    },
+    {
+      "source": "хорошо",
+      "variants": [{ "value": "хооршо" }]
+    },
+    {
+      "source": "хотеть",
+      "variants": [{ "value": "хотеьт" }]
+    },
+    {
+      "source": "хотя",
+      "variants": [{ "value": "охтя" }]
+    },
+    {
+      "source": "час",
+      "variants": [{ "value": "ачс" }]
+    },
+    {
+      "source": "человек",
+      "variants": [{ "value": "чеолвек" }]
+    },
+    {
+      "source": "через",
+      "variants": [{ "value": "чреез" }]
+    },
+    {
+      "source": "честь",
+      "variants": [{ "value": "чесьт" }]
+    },
+    {
+      "source": "чтобы",
+      "variants": [{ "value": "чтоыб" }]
+    },
+    {
+      "source": "экран",
+      "variants": [{ "value": "экарн" }]
+    },
+    {
+      "source": "это",
+      "variants": [{ "value": "эот" }]
+    }
+  ]
+}

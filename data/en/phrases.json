@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "language": "en",
+  "entries": [
+    {
+      "source": "kind of",
+      "variants": [{ "value": "kinda", "weight": 2 }, { "value": "sorta" }, { "value": "like kinda" }],
+      "probability": 0.55
+    },
+    {
+      "source": "a lot",
+      "variants": [{ "value": "alot" }, { "value": "like a lot" }, { "value": "sooo much" }],
+      "probability": 0.5
+    },
+    {
+      "source": "you know",
+      "variants": [{ "value": "ya know", "weight": 2 }, { "value": "you knowww" }, { "value": "like y'know" }],
+      "probability": 0.55
+    },
+    {
+      "source": "I think",
+      "variants": [{ "value": "I like think" }, { "value": "me thinks" }, { "value": "I totes think" }],
+      "probability": 0.45
+    },
+    {
+      "source": "I don't know",
+      "variants": [{ "value": "idk", "weight": 2 }, { "value": "I dunno" }, { "value": "like no ideaaa" }],
+      "probability": 0.65
+    },
+    {
+      "source": "of course",
+      "variants": [{ "value": "obvi" }, { "value": "of courseee" }, { "value": "duh" }],
+      "probability": 0.45
+    },
+    {
+      "source": "oh my god",
+      "variants": [{ "value": "omg", "weight": 2 }, { "value": "oh em gee" }, { "value": "like omggg" }],
+      "probability": 0.7
+    },
+    {
+      "source": "this application",
+      "variants": [{ "value": "this app", "weight": 2 }, { "value": "this app thingy" }],
+      "probability": 0.45
+    },
+    {
+      "source": "this is done",
+      "variants": [{ "value": "this is done, like" }, { "value": "this is basically done" }],
+      "probability": 0.4
+    },
+    {
+      "source": "natural language processing",
+      "variants": [{ "value": "natural language pwocesing" }, { "value": "NLP stuff" }],
+      "probability": 0.55
+    },
+    {
+      "source": "curated list",
+      "variants": [{ "value": "big list" }, { "value": "curated lil list" }],
+      "probability": 0.45
+    },
+    {
+      "source": "in addition",
+      "variants": [{ "value": "also" }, { "value": "and alsooo" }],
+      "probability": 0.55
+    },
+    {
+      "source": "are able to",
+      "variants": [{ "value": "can totally" }, { "value": "can like totally" }],
+      "probability": 0.5
+    },
+    {
+      "source": "very good",
+      "variants": [{ "value": "sooo good", "weight": 2 }, { "value": "like super good" }, { "value": "amazinggg" }],
+      "probability": 0.55
+    }
+  ]
+}

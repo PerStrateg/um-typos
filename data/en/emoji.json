@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "language": "en",
+  "entries": [
+    {
+      "id": "sparkle-tail",
+      "position": "sentenceTail",
+      "values": [{ "value": "💖", "weight": 2 }, { "value": "✨", "weight": 2 }, { "value": "💕" }],
+      "probability": 0.16,
+      "minWords": 8
+    },
+    {
+      "id": "document-tail",
+      "position": "documentTail",
+      "values": [{ "value": "lol" }, { "value": "✨" }],
+      "probability": 0.14,
+      "minWords": 30
+    }
+  ]
+}

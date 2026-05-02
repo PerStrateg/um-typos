@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "language": "ru",
+  "sentenceMinWords": 4,
+  "entries": [
+    {
+      "id": "soft-prefix",
+      "position": "prefix",
+      "values": [
+        { "value": "Нууу" },
+        { "value": "Короче," },
+        { "value": "Типа", "weight": 2 },
+        { "value": "Ой," },
+        { "value": "Оййй" }
+      ],
+      "probability": 0.42,
+      "minWords": 5
+    },
+    {
+      "id": "tail-filler",
+      "position": "tail",
+      "values": [
+        { "value": "и все такое" },
+        { "value": "ну типа", "weight": 2 },
+        { "value": "понимаешь" },
+        { "value": "короче" },
+        { "value": "ну примерно" }
+      ],
+      "probability": 0.5,
+      "minWords": 7
+    },
+    {
+      "id": "before-adjective",
+      "position": "beforeWord",
+      "values": [{ "value": "прям" }, { "value": "вообще" }, { "value": "типа" }],
+      "probability": 0.35,
+      "minWords": 5,
+      "minWordLength": 4,
+      "nlpPattern": "#Adjective"
+    },
+    {
+      "id": "after-verb",
+      "position": "afterWord",
+      "values": [{ "value": "как бы" }, { "value": "типа", "weight": 2 }],
+      "probability": 0.32,
+      "minWords": 6,
+      "nlpPattern": "#Verb"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "language": "en",
+  "entries": [
+    {
+      "source": "okay",
+      "variants": [{ "value": "ok", "weight": 2 }, { "value": "oki" }, { "value": "okee" }],
+      "tags": ["informal"],
+      "probability": 0.5
+    },
+    {
+      "source": "ok",
+      "variants": [{ "value": "oki" }, { "value": "okee" }],
+      "tags": ["informal"],
+      "probability": 0.35
+    },
+    {
+      "source": "really",
+      "variants": [{ "value": "rly", "weight": 2 }, { "value": "like reallyyy" }, { "value": "for reals" }],
+      "probability": 0.35
+    },
+    {
+      "source": "very",
+      "variants": [{ "value": "sooo", "weight": 2 }, { "value": "like super" }, { "value": "verry" }],
+      "probability": 0.42
+    },
+    {
+      "source": "you",
+      "variants": [{ "value": "ya", "weight": 2 }, { "value": "yah" }, { "value": "u" }],
+      "probability": 0.42
+    },
+    {
+      "source": "the",
+      "variants": [{ "value": "da", "weight": 2 }, { "value": "de" }, { "value": "dee" }],
+      "probability": 0.34
+    },
+    {
+      "source": "these",
+      "variants": [{ "value": "dese" }, { "value": "deze" }],
+      "probability": 0.32
+    },
+    {
+      "source": "because",
+      "variants": [{ "value": "cuz", "weight": 2 }, { "value": "becuz" }, { "value": "bc" }],
+      "probability": 0.38
+    },
+    {
+      "source": "probably",
+      "variants": [{ "value": "probly", "weight": 2 }, { "value": "prolly" }],
+      "probability": 0.36
+    },
+    {
+      "source": "love",
+      "variants": [{ "value": "luv", "weight": 2 }, { "value": "<3" }, { "value": "loveee" }],
+      "probability": 0.42
+    },
+    {
+      "source": "woman",
+      "variants": [{ "value": "girl", "weight": 2 }, { "value": "doll" }, { "value": "bimbo" }],
+      "probability": 0.28
+    },
+    {
+      "source": "picture",
+      "variants": [{ "value": "pic", "weight": 2 }, { "value": "photo" }],
+      "probability": 0.3
+    },
+    {
+      "source": "photo",
+      "variants": [{ "value": "picture" }, { "value": "pic" }],
+      "probability": 0.28
+    },
+    {
+      "source": "university",
+      "variants": [{ "value": "uni", "weight": 2 }, { "value": "college" }],
+      "probability": 0.32
+    },
+    {
+      "source": "doctor",
+      "variants": [{ "value": "doc" }],
+      "probability": 0.26
+    },
+    {
+      "source": "cute",
+      "variants": [{ "value": "cutie" }, { "value": "adorbs" }, { "value": "sooo cute" }],
+      "probability": 0.4
+    },
+    {
+      "source": "sexy",
+      "variants": [{ "value": "hawt", "weight": 2 }, { "value": "hottt" }, { "value": "sexxxy" }],
+      "probability": 0.32
+    },
+    {
+      "source": "whatever",
+      "variants": [{ "value": "whatevs" }],
+      "probability": 0.34
+    },
+    {
+      "source": "text",
+      "variants": [{ "value": "txt" }, { "value": "textie" }],
+      "probability": 0.22
+    },
+    {
+      "source": "something",
+      "variants": [{ "value": "sumthing" }, { "value": "somethinggg" }],
+      "probability": 0.28
+    },
+    {
+      "source": "meaning",
+      "variants": [{ "value": "meaninggg" }, { "value": "point" }],
+      "probability": 0.3
+    },
+    {
+      "source": "reasonable",
+      "variants": [{ "value": "reasonable-ish" }, { "value": "kinda reasonable" }],
+      "probability": 0.26
+    },
+    {
+      "source": "different",
+      "variants": [{ "value": "diferent", "weight": 2 }, { "value": "different-ish" }],
+      "probability": 0.35
+    }
+  ]
+}

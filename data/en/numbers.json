@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "language": "en",
+  "rules": [
+    {
+      "id": "fuzzy-rounding",
+      "min": 21,
+      "probability": 0.85,
+      "labels": { "many": "lots", "around": "around" }
+    }
+  ]
+}

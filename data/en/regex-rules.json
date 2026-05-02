@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "language": "en",
+  "rules": [
+    { "id": "final-s-to-z", "pattern": "s\\b", "replacement": "z", "probability": 0.55 },
+    { "id": "th-to-d", "pattern": "\\bth(?!i)", "replacement": "d", "probability": 0.52 },
+    { "id": "ing-to-in", "pattern": "ing\\b", "replacement": "in'", "probability": 0.45 },
+    { "id": "ph-to-f", "pattern": "ph\\B", "replacement": "f", "probability": 0.35 },
+    { "id": "ee-to-ea", "pattern": "ee", "replacement": "ea", "probability": 0.3 },
+    { "id": "ou-to-u", "pattern": "ou", "replacement": "u", "probability": 0.25 },
+    { "id": "final-ve-drop-e", "pattern": "([sv])e\\b", "replacement": "$1", "probability": 0.25 },
+    {
+      "id": "r-to-w-after-consonant",
+      "pattern": "([b-df-hj-npv-z])r\\B",
+      "replacement": "$1w",
+      "probability": 0.2
+    },
+    { "id": "love-to-luv", "pattern": "love", "replacement": "luv", "probability": 0.45 },
+    { "id": "what-to-wut", "pattern": "what", "replacement": "wut", "probability": 0.35 },
+    { "id": "tion-to-shun", "pattern": "tion\\b", "replacement": "shun", "probability": 0.24 },
+    { "id": "able-to-ble", "pattern": "able\\b", "replacement": "ble", "probability": 0.22 }
+  ]
+}

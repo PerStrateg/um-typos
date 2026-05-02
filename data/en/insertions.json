@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "language": "en",
+  "sentenceMinWords": 4,
+  "entries": [
+    {
+      "id": "soft-prefix",
+      "position": "prefix",
+      "values": [{ "value": "So," }, { "value": "Like,", "weight": 2 }, { "value": "Um," }],
+      "probability": 0.35,
+      "minWords": 5
+    },
+    {
+      "id": "tail-filler",
+      "position": "tail",
+      "values": [{ "value": "and stuff" }, { "value": "or whatever" }, { "value": "you know" }],
+      "probability": 0.48,
+      "minWords": 7
+    },
+    {
+      "id": "before-adjective",
+      "position": "beforeWord",
+      "values": [{ "value": "basically" }, { "value": "totally" }, { "value": "kinda" }],
+      "probability": 0.34,
+      "minWords": 5,
+      "minWordLength": 4,
+      "nlpPattern": "#Adjective"
+    },
+    {
+      "id": "after-verb-like",
+      "position": "afterWord",
+      "values": [{ "value": "like", "weight": 2 }, { "value": "basically" }],
+      "probability": 0.28,
+      "minWords": 6,
+      "nlpPattern": "#Verb"
+    }
+  ]
+}

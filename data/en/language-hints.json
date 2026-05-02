@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "language": "en",
+  "source": "reference/legacy/data/en.js",
+  "aliases": ["eng"],
+  "patterns": { "word": "[A-Za-z]+(?:'[A-Za-z]+)?", "letter": "[A-Za-z]", "latin": "[A-Za-z]", "cyrillic": "[А-Яа-яЁё]" },
+  "detection": {
+    "commonWords": ["the", "and", "that", "this", "with", "you", "for", "are", "was", "were", "have", "from", "not"],
+    "baseScore": 0.2,
+    "commonHitWeight": 0.18,
+    "maxCommonBoost": 0.55,
+    "longTextMinLetters": 24,
+    "longTextBoost": 0.15
+  }
+}

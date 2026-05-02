@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "language": "ru",
+  "source": "reference/legacy/data/ru.js",
+  "notes": "Compact Russian suffix hints copied from the legacy language profile for NLP fallback behavior.",
+  "nlpHints": {
+    "verbSuffixes": [
+      "ть",
+      "ться",
+      "тся",
+      "ешь",
+      "ете",
+      "ет",
+      "ем",
+      "ют",
+      "ут",
+      "ит",
+      "им",
+      "ат",
+      "ят",
+      "ал",
+      "ала",
+      "али",
+      "ил",
+      "ила",
+      "или",
+      "ешься",
+      "ется"
+    ],
+    "adjectiveSuffixes": ["ый", "ий", "ой", "ая", "яя", "ое", "ее", "ые", "ие", "ого", "его", "ому", "ему", "ым", "им", "ыми", "ими"],
+    "adverbSuffixes": ["о", "е", "ски", "цки", "ому"],
+    "nonVerbExceptions": ["ответ", "пакет", "портрет", "предмет", "привет", "свет", "совет", "цвет"],
+    "minAdverbLength": 5
+  }
+}

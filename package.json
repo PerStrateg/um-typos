@@ -1,0 +1,49 @@
+{
+   "name": "um-typos",
+   "version": "3.0.0",
+   "description": "A modular deterministic typo and filler-word text-styling library with language packs and filter pipelines.",
+   "keywords": [
+      "um-typos",
+      "typos",
+      "filler-words",
+      "text-transformation",
+      "deterministic-random",
+      "linguistics",
+      "nlp"
+   ],
+   "license": "MIT",
+   "type": "module",
+   "main": "./dist/index.js",
+   "types": "./dist/types/index.d.ts",
+   "exports": {
+      ".": {
+         "types": "./dist/types/index.d.ts",
+         "import": "./dist/index.js"
+      }
+   },
+   "files": [
+      "dist/index.js",
+      "dist/index.js.map",
+      "dist/types",
+      "data",
+      "README.md",
+      "LICENSE.txt"
+   ],
+   "scripts": {
+      "typecheck": "tsc -p tsconfig.json",
+      "build": "npm run typecheck && tsc -p tsconfig.types.json && node scripts/build-lib.mjs",
+      "test": "npm run build && node scripts/smoke-test.mjs",
+      "playground": "npm run build --silent && node scripts/playground.mjs"
+   },
+   "dependencies": {
+      "compromise": "14.15.0",
+      "franc": "6.2.0",
+      "intl-segmenter": "1.0.0",
+      "ru-compromise": "0.0.2"
+   },
+   "devDependencies": {
+      "@types/node": "22.10.2",
+      "esbuild": "^0.25.0",
+      "typescript": "5.9.3"
+   }
+}

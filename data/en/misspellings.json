@@ -1,0 +1,3626 @@
+{
+  "version": 1,
+  "language": "en",
+  "entries": [
+    {
+      "source": "application",
+      "variants": [{ "value": "aplication", "weight": 2 }, { "value": "applicashun" }, { "value": "applacation" }],
+      "probability": 0.5
+    },
+    {
+      "source": "because",
+      "variants": [
+        { "value": "becuz", "weight": 2 },
+        { "value": "bc" },
+        { "value": "beacuse", "weight": 2 },
+        { "value": "becasue" },
+        { "value": "becouse" },
+        { "value": "becuase" }
+      ],
+      "probability": 0.4
+    },
+    {
+      "source": "basically",
+      "variants": [{ "value": "baesicly", "weight": 2 }, { "value": "basicaly" }, { "value": "basicly" }],
+      "probability": 0.45
+    },
+    {
+      "source": "computer",
+      "variants": [{ "value": "comptuer" }, { "value": "computr" }, { "value": "comupter", "weight": 2 }],
+      "probability": 0.32
+    },
+    {
+      "source": "development",
+      "variants": [
+        { "value": "delevopment" },
+        { "value": "developement", "weight": 2 },
+        { "value": "develpond" },
+        { "value": "devolopement" }
+      ],
+      "probability": 0.38
+    },
+    {
+      "source": "different",
+      "variants": [
+        { "value": "diferent", "weight": 2 },
+        { "value": "diffrent" },
+        { "value": "diferrent" },
+        { "value": "deffrent" }
+      ],
+      "probability": 0.38
+    },
+    {
+      "source": "know",
+      "variants": [{ "value": "knw" }, { "value": "konw" }, { "value": "nkow" }],
+      "probability": 0.34
+    },
+    {
+      "source": "library",
+      "variants": [{ "value": "libary" }, { "value": "libery" }, { "value": "libraly" }, { "value": "libray" }],
+      "probability": 0.36
+    },
+    {
+      "source": "little",
+      "variants": [
+        { "value": "litle" },
+        { "value": "littel", "weight": 2 },
+        { "value": "lette" },
+        { "value": "lettel" },
+        { "value": "lettle" }
+      ],
+      "probability": 0.38
+    },
+    {
+      "source": "processing",
+      "variants": [{ "value": "pwocesing" }, { "value": "processin" }],
+      "probability": 0.32
+    },
+    {
+      "source": "probably",
+      "variants": [{ "value": "probly", "weight": 2 }, { "value": "prolly" }],
+      "probability": 0.36
+    },
+    {
+      "source": "should",
+      "variants": [
+        { "value": "shud" },
+        { "value": "should" },
+        { "value": "shoudl", "weight": 2 },
+        { "value": "shoudln" },
+        { "value": "sould" },
+        { "value": "sald" }
+      ],
+      "probability": 0.38
+    },
+    {
+      "source": "words",
+      "variants": [{ "value": "wordz", "weight": 3 }, { "value": "werds" }],
+      "probability": 0.42
+    },
+    {
+      "source": "ability",
+      "variants": [
+        { "value": "abilitey", "weight": 2 },
+        { "value": "abbility" },
+        { "value": "abilaty" },
+        { "value": "abillity" }
+      ],
+      "probability": 0.38
+    },
+    {
+      "source": "about",
+      "variants": [{ "value": "abouy", "weight": 2 }, { "value": "aboat" }, { "value": "aboit" }, { "value": "abont" }],
+      "probability": 0.3
+    },
+    {
+      "source": "above",
+      "variants": [{ "value": "abahe", "weight": 2 }, { "value": "aboat" }, { "value": "aboer" }, { "value": "abofe" }],
+      "probability": 0.3
+    },
+    {
+      "source": "access",
+      "variants": [{ "value": "acess", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "according",
+      "variants": [{ "value": "acording", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "account",
+      "variants": [{ "value": "acount", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "across",
+      "variants": [{ "value": "accross", "weight": 2 }, { "value": "acroos" }, { "value": "acros" }],
+      "probability": 0.32
+    },
+    {
+      "source": "active",
+      "variants": [{ "value": "acttive", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "activities",
+      "variants": [
+        { "value": "activerties", "weight": 2 },
+        { "value": "activeties" },
+        { "value": "activites" },
+        { "value": "activitys" }
+      ],
+      "probability": 0.4
+    },
+    {
+      "source": "actually",
+      "variants": [{ "value": "actualy", "weight": 2 }, { "value": "acarly" }, { "value": "acctaly" }, { "value": "acctually" }],
+      "probability": 0.38
+    },
+    {
+      "source": "addition",
+      "variants": [{ "value": "additon", "weight": 2 }, { "value": "addittion" }, { "value": "addtion" }],
+      "probability": 0.32
+    },
+    {
+      "source": "additional",
+      "variants": [{ "value": "addional", "weight": 2 }, { "value": "additonal" }],
+      "probability": 0.36
+    },
+    {
+      "source": "address",
+      "variants": [{ "value": "addres", "weight": 2 }, { "value": "adres" }, { "value": "adress" }],
+      "probability": 0.32
+    },
+    {
+      "source": "administration",
+      "variants": [{ "value": "adminstration", "weight": 2 }, { "value": "addministration" }],
+      "probability": 0.36
+    },
+    {
+      "source": "adult",
+      "variants": [{ "value": "addult", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "advanced",
+      "variants": [{ "value": "advansed", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "advertise",
+      "variants": [{ "value": "advertize", "weight": 2 }, { "value": "advitise" }],
+      "probability": 0.3
+    },
+    {
+      "source": "advertising",
+      "variants": [{ "value": "advertiseing", "weight": 2 }],
+      "probability": 0.34
+    },
+    {
+      "source": "advice",
+      "variants": [{ "value": "adviced", "weight": 2 }, { "value": "advise" }],
+      "probability": 0.3
+    },
+    {
+      "source": "after",
+      "variants": [{ "value": "afert", "weight": 2 }, { "value": "aftere" }, { "value": "afthe" }, { "value": "aftr" }],
+      "probability": 0.26
+    },
+    {
+      "source": "again",
+      "variants": [{ "value": "agian", "weight": 2 }, { "value": "agina" }, { "value": "againt" }, { "value": "agan" }],
+      "probability": 0.3
+    },
+    {
+      "source": "against",
+      "variants": [{ "value": "again", "weight": 2 }, { "value": "againter" }, { "value": "aganst" }, { "value": "agenst" }],
+      "probability": 0.38
+    },
+    {
+      "source": "agency",
+      "variants": [{ "value": "agentcy", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "agreement",
+      "variants": [{ "value": "aggreement", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "airport",
+      "variants": [{ "value": "airpot", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "alcohol",
+      "variants": [{ "value": "alchohol", "weight": 2 }, { "value": "alcohal" }],
+      "probability": 0.3
+    },
+    {
+      "source": "allow",
+      "variants": [{ "value": "alow", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "almost",
+      "variants": [{ "value": "almsot", "weight": 2 }, { "value": "alomst" }, { "value": "allmost" }],
+      "probability": 0.32
+    },
+    {
+      "source": "along",
+      "variants": [{ "value": "aling", "weight": 2 }, { "value": "allong" }, { "value": "alog" }],
+      "probability": 0.24
+    },
+    {
+      "source": "already",
+      "variants": [{ "value": "alreayd", "weight": 2 }, { "value": "allready" }],
+      "probability": 0.3
+    },
+    {
+      "source": "although",
+      "variants": [
+        { "value": "altho", "weight": 2 },
+        { "value": "althought" },
+        { "value": "altough" },
+        { "value": "allthough" }
+      ],
+      "probability": 0.38
+    },
+    {
+      "source": "always",
+      "variants": [{ "value": "alwasy", "weight": 2 }, { "value": "alwyas" }, { "value": "allway" }, { "value": "allways" }],
+      "probability": 0.38
+    },
+    {
+      "source": "amateur",
+      "variants": [{ "value": "amature", "weight": 2 }, { "value": "amatuer" }],
+      "probability": 0.3
+    },
+    {
+      "source": "america",
+      "variants": [{ "value": "ameraca", "weight": 2 }, { "value": "amercia" }],
+      "probability": 0.3
+    },
+    {
+      "source": "american",
+      "variants": [{ "value": "ameracan", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "among",
+      "variants": [{ "value": "amoung", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "amount",
+      "variants": [{ "value": "ammount", "weight": 2 }, { "value": "amomt" }, { "value": "amont" }, { "value": "amout" }],
+      "probability": 0.34
+    },
+    {
+      "source": "analysis",
+      "variants": [
+        { "value": "alalasis", "weight": 2 },
+        { "value": "analagys" },
+        { "value": "analasys" },
+        { "value": "analasysis" }
+      ],
+      "probability": 0.38
+    },
+    {
+      "source": "animal",
+      "variants": [{ "value": "anamal", "weight": 2 }, { "value": "animals" }],
+      "probability": 0.3
+    },
+    {
+      "source": "annual",
+      "variants": [{ "value": "anual", "weight": 2 }, { "value": "anuaual" }],
+      "probability": 0.3
+    },
+    {
+      "source": "anonymous",
+      "variants": [{ "value": "anynomous", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "another",
+      "variants": [{ "value": "anather", "weight": 2 }, { "value": "annother" }, { "value": "anothe" }, { "value": "anther" }],
+      "probability": 0.38
+    },
+    {
+      "source": "answer",
+      "variants": [{ "value": "ahter", "weight": 2 }, { "value": "amser" }, { "value": "amswer" }, { "value": "anbewer" }],
+      "probability": 0.38
+    },
+    {
+      "source": "anything",
+      "variants": [{ "value": "anytying", "weight": 2 }, { "value": "anythin" }],
+      "probability": 0.3
+    },
+    {
+      "source": "apply",
+      "variants": [{ "value": "aply", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "approach",
+      "variants": [{ "value": "appoa", "weight": 2 }, { "value": "appraoch" }, { "value": "approch" }, { "value": "aproach" }],
+      "probability": 0.34
+    },
+    {
+      "source": "appropriate",
+      "variants": [
+        { "value": "appropiate", "weight": 2 },
+        { "value": "abpropate" },
+        { "value": "apperate" },
+        { "value": "appiopiate" }
+      ],
+      "probability": 0.44
+    },
+    {
+      "source": "april",
+      "variants": [{ "value": "apirl", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "architecture",
+      "variants": [{ "value": "archetecture", "weight": 2 }],
+      "probability": 0.34
+    },
+    {
+      "source": "archive",
+      "variants": [{ "value": "achive", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "around",
+      "variants": [{ "value": "arad", "weight": 2 }, { "value": "aroand" }, { "value": "arode" }, { "value": "aron" }],
+      "probability": 0.38
+    },
+    {
+      "source": "article",
+      "variants": [{ "value": "artical", "weight": 2 }, { "value": "articel" }, { "value": "arctical" }],
+      "probability": 0.32
+    },
+    {
+      "source": "articles",
+      "variants": [{ "value": "articals", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "artist",
+      "variants": [{ "value": "artest", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "asked",
+      "variants": [{ "value": "ask", "weight": 2 }, { "value": "askt" }],
+      "probability": 0.22
+    },
+    {
+      "source": "associated",
+      "variants": [
+        { "value": "asociated", "weight": 2 },
+        { "value": "assiciated" },
+        { "value": "assocaited" },
+        { "value": "assosiated" }
+      ],
+      "probability": 0.4
+    },
+    {
+      "source": "association",
+      "variants": [
+        { "value": "accociation", "weight": 2 },
+        { "value": "ascociation" },
+        { "value": "asociation" },
+        { "value": "assocation" }
+      ],
+      "probability": 0.4
+    },
+    {
+      "source": "august",
+      "variants": [{ "value": "agust", "weight": 2 }, { "value": "augest" }],
+      "probability": 0.3
+    },
+    {
+      "source": "author",
+      "variants": [{ "value": "autor", "weight": 2 }, { "value": "auther" }],
+      "probability": 0.3
+    },
+    {
+      "source": "availability",
+      "variants": [{ "value": "avaiblity", "weight": 2 }],
+      "probability": 0.34
+    },
+    {
+      "source": "available",
+      "variants": [
+        { "value": "avalable", "weight": 2 },
+        { "value": "avaliable" },
+        { "value": "advalable" },
+        { "value": "avable" }
+      ],
+      "probability": 0.38
+    },
+    {
+      "source": "average",
+      "variants": [{ "value": "avarage", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "based",
+      "variants": [{ "value": "basen", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "basic",
+      "variants": [{ "value": "bisic", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "beach",
+      "variants": [{ "value": "beech", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "beauty",
+      "variants": [{ "value": "beuty", "weight": 2 }, { "value": "bueaty" }],
+      "probability": 0.3
+    },
+    {
+      "source": "become",
+      "variants": [{ "value": "bacome", "weight": 2 }, { "value": "becom" }, { "value": "beeome" }, { "value": "beome" }],
+      "probability": 0.34
+    },
+    {
+      "source": "before",
+      "variants": [{ "value": "befoer", "weight": 2 }, { "value": "beefore" }, { "value": "befor" }, { "value": "befour" }],
+      "probability": 0.38
+    },
+    {
+      "source": "beginning",
+      "variants": [
+        { "value": "beggining", "weight": 2 },
+        { "value": "beging" },
+        { "value": "bigginging" },
+        { "value": "begining" }
+      ],
+      "probability": 0.38
+    },
+    {
+      "source": "being",
+      "variants": [{ "value": "beeing", "weight": 2 }, { "value": "been" }, { "value": "bieing" }, { "value": "bieng" }],
+      "probability": 0.26
+    },
+    {
+      "source": "believe",
+      "variants": [{ "value": "beleive", "weight": 2 }, { "value": "belive" }, { "value": "belief" }],
+      "probability": 0.32
+    },
+    {
+      "source": "below",
+      "variants": [{ "value": "belowe", "weight": 2 }, { "value": "blow" }],
+      "probability": 0.22
+    },
+    {
+      "source": "benefits",
+      "variants": [{ "value": "benidifs", "weight": 2 }, { "value": "benifits" }, { "value": "benefites" }],
+      "probability": 0.32
+    },
+    {
+      "source": "better",
+      "variants": [{ "value": "bet", "weight": 2 }, { "value": "beter" }],
+      "probability": 0.3
+    },
+    {
+      "source": "between",
+      "variants": [{ "value": "beeteen", "weight": 2 }, { "value": "beetween" }, { "value": "beeween" }, { "value": "beteen" }],
+      "probability": 0.36
+    },
+    {
+      "source": "black",
+      "variants": [{ "value": "blak", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "board",
+      "variants": [{ "value": "bord", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "books",
+      "variants": [{ "value": "book", "weight": 2 }, { "value": "bookes" }],
+      "probability": 0.22
+    },
+    {
+      "source": "brand",
+      "variants": [{ "value": "bran", "weight": 2 }, { "value": "brend" }],
+      "probability": 0.22
+    },
+    {
+      "source": "british",
+      "variants": [{ "value": "brittish", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "brown",
+      "variants": [{ "value": "bron", "weight": 2 }, { "value": "broun" }],
+      "probability": 0.22
+    },
+    {
+      "source": "browse",
+      "variants": [{ "value": "bbrose", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "build",
+      "variants": [{ "value": "bild", "weight": 2 }, { "value": "biuld" }],
+      "probability": 0.22
+    },
+    {
+      "source": "building",
+      "variants": [
+        { "value": "belding", "weight": 2 },
+        { "value": "bilding" },
+        { "value": "billding" },
+        { "value": "biulding" }
+      ],
+      "probability": 0.38
+    },
+    {
+      "source": "business",
+      "variants": [
+        { "value": "buisness", "weight": 2 },
+        { "value": "busineses" },
+        { "value": "busness" },
+        { "value": "bisnes" }
+      ],
+      "probability": 0.38
+    },
+    {
+      "source": "button",
+      "variants": [{ "value": "buton", "weight": 2 }, { "value": "botton" }],
+      "probability": 0.3
+    },
+    {
+      "source": "calendar",
+      "variants": [{ "value": "calender", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "called",
+      "variants": [{ "value": "call", "weight": 2 }, { "value": "calld" }, { "value": "cholep" }, { "value": "could" }],
+      "probability": 0.34
+    },
+    {
+      "source": "camera",
+      "variants": [{ "value": "camara", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "canada",
+      "variants": [{ "value": "canda", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "capital",
+      "variants": [{ "value": "capitol", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "cards",
+      "variants": [{ "value": "cars", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "career",
+      "variants": [{ "value": "carear", "weight": 2 }, { "value": "carreer" }, { "value": "carrer" }],
+      "probability": 0.32
+    },
+    {
+      "source": "cases",
+      "variants": [{ "value": "casses", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "categories",
+      "variants": [{ "value": "catagories", "weight": 2 }, { "value": "catagoris" }],
+      "probability": 0.36
+    },
+    {
+      "source": "category",
+      "variants": [{ "value": "catagory", "weight": 2 }, { "value": "catagorey" }],
+      "probability": 0.3
+    },
+    {
+      "source": "cause",
+      "variants": [{ "value": "course", "weight": 2 }, { "value": "couse" }],
+      "probability": 0.22
+    },
+    {
+      "source": "central",
+      "variants": [{ "value": "centeral", "weight": 2 }, { "value": "centrel" }, { "value": "cntral" }],
+      "probability": 0.32
+    },
+    {
+      "source": "centre",
+      "variants": [{ "value": "center", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "certain",
+      "variants": [{ "value": "ceratin", "weight": 2 }, { "value": "certian" }, { "value": "cirtain" }, { "value": "curtain" }],
+      "probability": 0.34
+    },
+    {
+      "source": "change",
+      "variants": [{ "value": "chang", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "channel",
+      "variants": [{ "value": "chanel", "weight": 2 }, { "value": "channal" }],
+      "probability": 0.3
+    },
+    {
+      "source": "chapter",
+      "variants": [{ "value": "capter", "weight": 2 }, { "value": "captur" }, { "value": "capture" }, { "value": "chapder" }],
+      "probability": 0.38
+    },
+    {
+      "source": "cheap",
+      "variants": [{ "value": "cheep", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "check",
+      "variants": [{ "value": "chack", "weight": 2 }, { "value": "cheak" }, { "value": "cheke" }],
+      "probability": 0.24
+    },
+    {
+      "source": "child",
+      "variants": [{ "value": "cild", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "children",
+      "variants": [{ "value": "cherden", "weight": 2 }, { "value": "chiden" }, { "value": "chidren" }, { "value": "child" }],
+      "probability": 0.38
+    },
+    {
+      "source": "choice",
+      "variants": [{ "value": "choise", "weight": 2 }, { "value": "chose" }],
+      "probability": 0.3
+    },
+    {
+      "source": "choose",
+      "variants": [{ "value": "cheoos", "weight": 2 }, { "value": "chese" }, { "value": "chews" }, { "value": "choos" }],
+      "probability": 0.38
+    },
+    {
+      "source": "christian",
+      "variants": [{ "value": "christain", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "christmas",
+      "variants": [
+        { "value": "chrismas", "weight": 2 },
+        { "value": "christmis" },
+        { "value": "cristmus" },
+        { "value": "cristmas" }
+      ],
+      "probability": 0.34
+    },
+    {
+      "source": "church",
+      "variants": [{ "value": "curch", "weight": 2 }, { "value": "cherch" }, { "value": "cherth" }, { "value": "chirch" }],
+      "probability": 0.34
+    },
+    {
+      "source": "class",
+      "variants": [{ "value": "clars", "weight": 2 }, { "value": "clas" }],
+      "probability": 0.22
+    },
+    {
+      "source": "clear",
+      "variants": [{ "value": "claer", "weight": 2 }, { "value": "clera" }],
+      "probability": 0.22
+    },
+    {
+      "source": "client",
+      "variants": [{ "value": "cleint", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "close",
+      "variants": [{ "value": "clos", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "collection",
+      "variants": [{ "value": "colection", "weight": 2 }, { "value": "coletion" }],
+      "probability": 0.36
+    },
+    {
+      "source": "college",
+      "variants": [{ "value": "collage", "weight": 2 }, { "value": "colledge" }],
+      "probability": 0.3
+    },
+    {
+      "source": "comes",
+      "variants": [{ "value": "coms", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "coming",
+      "variants": [{ "value": "comming", "weight": 2 }, { "value": "cameing" }, { "value": "cming" }, { "value": "come" }],
+      "probability": 0.38
+    },
+    {
+      "source": "comments",
+      "variants": [{ "value": "coments", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "commercial",
+      "variants": [{ "value": "commericial", "weight": 2 }, { "value": "comercial" }, { "value": "comersial" }],
+      "probability": 0.38
+    },
+    {
+      "source": "commission",
+      "variants": [{ "value": "comision", "weight": 2 }, { "value": "comission" }, { "value": "commision" }],
+      "probability": 0.38
+    },
+    {
+      "source": "committee",
+      "variants": [
+        { "value": "comitte", "weight": 2 },
+        { "value": "commitee" },
+        { "value": "comittee" },
+        { "value": "committe" }
+      ],
+      "probability": 0.36
+    },
+    {
+      "source": "common",
+      "variants": [{ "value": "comman", "weight": 2 }, { "value": "commem" }, { "value": "comon" }, { "value": "con" }],
+      "probability": 0.34
+    },
+    {
+      "source": "communication",
+      "variants": [
+        { "value": "communciation", "weight": 2 },
+        { "value": "communcation" },
+        { "value": "communicate" },
+        { "value": "comunication" }
+      ],
+      "probability": 0.4
+    },
+    {
+      "source": "community",
+      "variants": [
+        { "value": "commenity", "weight": 2 },
+        { "value": "commity" },
+        { "value": "commonity" },
+        { "value": "commuaity" }
+      ],
+      "probability": 0.38
+    },
+    {
+      "source": "companies",
+      "variants": [{ "value": "companys", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "company",
+      "variants": [{ "value": "compeny", "weight": 2 }, { "value": "compy" }],
+      "probability": 0.3
+    },
+    {
+      "source": "compare",
+      "variants": [{ "value": "compair", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "complete",
+      "variants": [{ "value": "compleat", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "condition",
+      "variants": [{ "value": "condidtion", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "conditions",
+      "variants": [
+        { "value": "condidtions", "weight": 2 },
+        { "value": "coidisions" },
+        { "value": "comderins" },
+        { "value": "condersions" }
+      ],
+      "probability": 0.44
+    },
+    {
+      "source": "conference",
+      "variants": [{ "value": "conferance", "weight": 2 }],
+      "probability": 0.34
+    },
+    {
+      "source": "construction",
+      "variants": [{ "value": "constuction", "weight": 2 }, { "value": "construcktion" }],
+      "probability": 0.36
+    },
+    {
+      "source": "consumer",
+      "variants": [{ "value": "comsumer", "weight": 2 }, { "value": "consummer" }],
+      "probability": 0.3
+    },
+    {
+      "source": "content",
+      "variants": [{ "value": "conitent", "weight": 2 }, { "value": "containt" }, { "value": "contant" }],
+      "probability": 0.32
+    },
+    {
+      "source": "contents",
+      "variants": [{ "value": "contence", "weight": 2 }, { "value": "contense" }],
+      "probability": 0.3
+    },
+    {
+      "source": "continue",
+      "variants": [{ "value": "contunie", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "contract",
+      "variants": [{ "value": "contrack", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "control",
+      "variants": [{ "value": "controll", "weight": 2 }, { "value": "contioll" }, { "value": "controle" }],
+      "probability": 0.32
+    },
+    {
+      "source": "corporate",
+      "variants": [{ "value": "corparate", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "corporation",
+      "variants": [{ "value": "coorperation", "weight": 2 }, { "value": "corperation" }],
+      "probability": 0.36
+    },
+    {
+      "source": "could",
+      "variants": [{ "value": "coudl", "weight": 2 }, { "value": "cod" }, { "value": "cood" }, { "value": "coud" }],
+      "probability": 0.26
+    },
+    {
+      "source": "council",
+      "variants": [{ "value": "counsel", "weight": 2 }, { "value": "countel" }],
+      "probability": 0.3
+    },
+    {
+      "source": "countries",
+      "variants": [{ "value": "contries", "weight": 2 }, { "value": "countrys" }],
+      "probability": 0.3
+    },
+    {
+      "source": "country",
+      "variants": [{ "value": "contry", "weight": 2 }, { "value": "coontry" }, { "value": "countrie" }, { "value": "county" }],
+      "probability": 0.36
+    },
+    {
+      "source": "county",
+      "variants": [{ "value": "conty", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "course",
+      "variants": [{ "value": "cause", "weight": 2 }, { "value": "coarse" }, { "value": "cors" }, { "value": "corse" }],
+      "probability": 0.38
+    },
+    {
+      "source": "courses",
+      "variants": [{ "value": "causes", "weight": 2 }, { "value": "coces" }, { "value": "colses" }, { "value": "corse" }],
+      "probability": 0.38
+    },
+    {
+      "source": "court",
+      "variants": [{ "value": "courst", "weight": 2 }, { "value": "cort" }],
+      "probability": 0.22
+    },
+    {
+      "source": "cover",
+      "variants": [{ "value": "cuver", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "created",
+      "variants": [{ "value": "creaeted", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "credit",
+      "variants": [{ "value": "creadit", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "cross",
+      "variants": [{ "value": "cros", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "current",
+      "variants": [{ "value": "curent", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "currently",
+      "variants": [{ "value": "currenly", "weight": 2 }, { "value": "curruntly" }],
+      "probability": 0.3
+    },
+    {
+      "source": "customer",
+      "variants": [{ "value": "costomer", "weight": 2 }, { "value": "costumer" }],
+      "probability": 0.3
+    },
+    {
+      "source": "daily",
+      "variants": [{ "value": "daly", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "december",
+      "variants": [{ "value": "decmber", "weight": 2 }, { "value": "desember" }],
+      "probability": 0.3
+    },
+    {
+      "source": "decision",
+      "variants": [
+        { "value": "disition", "weight": 2 },
+        { "value": "descision" },
+        { "value": "decission" },
+        { "value": "descisions" }
+      ],
+      "probability": 0.38
+    },
+    {
+      "source": "degree",
+      "variants": [{ "value": "degre", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "delivery",
+      "variants": [{ "value": "delievery", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "department",
+      "variants": [{ "value": "deportment", "weight": 2 }],
+      "probability": 0.34
+    },
+    {
+      "source": "description",
+      "variants": [
+        { "value": "descrption", "weight": 2 },
+        { "value": "descrptn" },
+        { "value": "desacription" },
+        { "value": "descvription" }
+      ],
+      "probability": 0.44
+    },
+    {
+      "source": "design",
+      "variants": [{ "value": "desine", "weight": 2 }, { "value": "dezine" }],
+      "probability": 0.3
+    },
+    {
+      "source": "designed",
+      "variants": [
+        { "value": "desgined", "weight": 2 },
+        { "value": "dessigned" },
+        { "value": "deisdined" },
+        { "value": "deseigned" }
+      ],
+      "probability": 0.38
+    },
+    {
+      "source": "details",
+      "variants": [{ "value": "detals", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "developed",
+      "variants": [{ "value": "developped", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "director",
+      "variants": [{ "value": "directer", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "discussion",
+      "variants": [{ "value": "disssicion", "weight": 2 }, { "value": "discusion" }, { "value": "dissucussion" }],
+      "probability": 0.38
+    },
+    {
+      "source": "display",
+      "variants": [{ "value": "deslay", "weight": 2 }, { "value": "desplay" }, { "value": "distay" }],
+      "probability": 0.32
+    },
+    {
+      "source": "distribution",
+      "variants": [{ "value": "distibution", "weight": 2 }],
+      "probability": 0.34
+    },
+    {
+      "source": "district",
+      "variants": [{ "value": "distrect", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "division",
+      "variants": [{ "value": "divison", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "document",
+      "variants": [{ "value": "doccument", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "documents",
+      "variants": [
+        { "value": "doccuments", "weight": 2 },
+        { "value": "dockuments" },
+        { "value": "doctments" },
+        { "value": "docement" }
+      ],
+      "probability": 0.38
+    },
+    {
+      "source": "doing",
+      "variants": [{ "value": "doign", "weight": 2 }, { "value": "donig" }, { "value": "daing" }],
+      "probability": 0.24
+    },
+    {
+      "source": "double",
+      "variants": [{ "value": "duble", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "download",
+      "variants": [{ "value": "doenload", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "drive",
+      "variants": [{ "value": "driv", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "during",
+      "variants": [{ "value": "duren", "weight": 2 }, { "value": "durring" }, { "value": "durin" }],
+      "probability": 0.32
+    },
+    {
+      "source": "early",
+      "variants": [{ "value": "eigly", "weight": 2 }, { "value": "erly" }],
+      "probability": 0.22
+    },
+    {
+      "source": "economic",
+      "variants": [
+        { "value": "ecanomic", "weight": 2 },
+        { "value": "eccomic" },
+        { "value": "eccomomic" },
+        { "value": "eccomonic" }
+      ],
+      "probability": 0.38
+    },
+    {
+      "source": "edition",
+      "variants": [
+        { "value": "eddetion", "weight": 2 },
+        { "value": "eddition" },
+        { "value": "edeation" },
+        { "value": "ediion" }
+      ],
+      "probability": 0.38
+    },
+    {
+      "source": "education",
+      "variants": [{ "value": "eduacation", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "effect",
+      "variants": [{ "value": "efect", "weight": 2 }, { "value": "effet" }],
+      "probability": 0.3
+    },
+    {
+      "source": "either",
+      "variants": [{ "value": "eather", "weight": 2 }, { "value": "eigther" }, { "value": "ether" }],
+      "probability": 0.32
+    },
+    {
+      "source": "electronics",
+      "variants": [{ "value": "electrict", "weight": 2 }],
+      "probability": 0.34
+    },
+    {
+      "source": "employment",
+      "variants": [{ "value": "employement", "weight": 2 }, { "value": "empolyment" }, { "value": "empoymen" }],
+      "probability": 0.38
+    },
+    {
+      "source": "energy",
+      "variants": [{ "value": "energey", "weight": 2 }, { "value": "enrergy" }],
+      "probability": 0.3
+    },
+    {
+      "source": "engine",
+      "variants": [{ "value": "engins", "weight": 2 }, { "value": "enegine" }, { "value": "engeer" }, { "value": "engein" }],
+      "probability": 0.38
+    },
+    {
+      "source": "engineering",
+      "variants": [{ "value": "engeneering", "weight": 2 }],
+      "probability": 0.34
+    },
+    {
+      "source": "english",
+      "variants": [{ "value": "enlish", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "enough",
+      "variants": [{ "value": "enought", "weight": 2 }, { "value": "eneugh" }, { "value": "enuf" }, { "value": "enufe" }],
+      "probability": 0.34
+    },
+    {
+      "source": "entertainment",
+      "variants": [{ "value": "entertament", "weight": 2 }, { "value": "entertanment" }],
+      "probability": 0.36
+    },
+    {
+      "source": "environment",
+      "variants": [{ "value": "enviroment", "weight": 2 }, { "value": "enviorment" }, { "value": "enviornment" }],
+      "probability": 0.38
+    },
+    {
+      "source": "environmental",
+      "variants": [{ "value": "enviormental", "weight": 2 }, { "value": "enviornmental" }, { "value": "enviromental" }],
+      "probability": 0.38
+    },
+    {
+      "source": "equipment",
+      "variants": [{ "value": "equippment", "weight": 2 }, { "value": "eqiptment" }, { "value": "equipmant" }],
+      "probability": 0.32
+    },
+    {
+      "source": "error",
+      "variants": [{ "value": "errara", "weight": 2 }, { "value": "erro" }, { "value": "eror" }, { "value": "errow" }],
+      "probability": 0.26
+    },
+    {
+      "source": "european",
+      "variants": [{ "value": "europian", "weight": 2 }, { "value": "eurpean" }, { "value": "eurpoean" }],
+      "probability": 0.32
+    },
+    {
+      "source": "every",
+      "variants": [{ "value": "eveyr", "weight": 2 }, { "value": "evay" }, { "value": "ever" }, { "value": "evey" }],
+      "probability": 0.3
+    },
+    {
+      "source": "everyone",
+      "variants": [{ "value": "everone", "weight": 2 }, { "value": "evreone" }],
+      "probability": 0.3
+    },
+    {
+      "source": "everything",
+      "variants": [
+        { "value": "evething", "weight": 2 },
+        { "value": "everthing" },
+        { "value": "everying" },
+        { "value": "everythink" }
+      ],
+      "probability": 0.4
+    },
+    {
+      "source": "evidence",
+      "variants": [{ "value": "evedence", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "example",
+      "variants": [{ "value": "exemple", "weight": 2 }, { "value": "exmaple" }, { "value": "exmple" }, { "value": "exsample" }],
+      "probability": 0.34
+    },
+    {
+      "source": "exchange",
+      "variants": [{ "value": "excange", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "executive",
+      "variants": [{ "value": "exectutive", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "exercise",
+      "variants": [
+        { "value": "excercise", "weight": 2 },
+        { "value": "exersis" },
+        { "value": "exersise" },
+        { "value": "exersize" }
+      ],
+      "probability": 0.34
+    },
+    {
+      "source": "experience",
+      "variants": [
+        { "value": "eperiance", "weight": 2 },
+        { "value": "expeirence" },
+        { "value": "expence" },
+        { "value": "experance" }
+      ],
+      "probability": 0.44
+    },
+    {
+      "source": "facilities",
+      "variants": [
+        { "value": "facatilites", "weight": 2 },
+        { "value": "faccilities" },
+        { "value": "facelities" },
+        { "value": "facellities" }
+      ],
+      "probability": 0.44
+    },
+    {
+      "source": "family",
+      "variants": [{ "value": "famaly", "weight": 2 }, { "value": "familly" }, { "value": "famley" }, { "value": "famliy" }],
+      "probability": 0.38
+    },
+    {
+      "source": "feature",
+      "variants": [{ "value": "feture", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "february",
+      "variants": [{ "value": "febuary", "weight": 2 }, { "value": "feburary" }, { "value": "feburay" }],
+      "probability": 0.32
+    },
+    {
+      "source": "federal",
+      "variants": [{ "value": "fedral", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "female",
+      "variants": [{ "value": "femail", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "field",
+      "variants": [{ "value": "fiel", "weight": 2 }, { "value": "feald" }, { "value": "fed" }, { "value": "feid" }],
+      "probability": 0.3
+    },
+    {
+      "source": "figure",
+      "variants": [{ "value": "figer", "weight": 2 }, { "value": "figuar" }],
+      "probability": 0.3
+    },
+    {
+      "source": "files",
+      "variants": [{ "value": "fiels", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "final",
+      "variants": [{ "value": "fianal", "weight": 2 }, { "value": "finale" }, { "value": "finall" }, { "value": "finally" }],
+      "probability": 0.3
+    },
+    {
+      "source": "financial",
+      "variants": [
+        { "value": "fiancial", "weight": 2 },
+        { "value": "finacal" },
+        { "value": "finachel" },
+        { "value": "finachial" }
+      ],
+      "probability": 0.38
+    },
+    {
+      "source": "first",
+      "variants": [{ "value": "firts", "weight": 2 }, { "value": "ferst" }, { "value": "firt" }, { "value": "fist" }],
+      "probability": 0.3
+    },
+    {
+      "source": "follow",
+      "variants": [{ "value": "flow", "weight": 2 }, { "value": "folow" }],
+      "probability": 0.3
+    },
+    {
+      "source": "following",
+      "variants": [{ "value": "flowing", "weight": 2 }, { "value": "folling" }],
+      "probability": 0.3
+    },
+    {
+      "source": "force",
+      "variants": [{ "value": "forces", "weight": 2 }, { "value": "forse" }],
+      "probability": 0.22
+    },
+    {
+      "source": "foreign",
+      "variants": [{ "value": "foriegn", "weight": 2 }, { "value": "forein" }, { "value": "forien" }],
+      "probability": 0.32
+    },
+    {
+      "source": "forms",
+      "variants": [{ "value": "form", "weight": 2 }, { "value": "formes" }],
+      "probability": 0.22
+    },
+    {
+      "source": "found",
+      "variants": [{ "value": "foudn", "weight": 2 }, { "value": "faud" }, { "value": "fond" }, { "value": "fount" }],
+      "probability": 0.26
+    },
+    {
+      "source": "foundation",
+      "variants": [{ "value": "fondation", "weight": 2 }, { "value": "foundition" }],
+      "probability": 0.36
+    },
+    {
+      "source": "french",
+      "variants": [{ "value": "franch", "weight": 2 }, { "value": "fench" }, { "value": "freach" }],
+      "probability": 0.32
+    },
+    {
+      "source": "friday",
+      "variants": [{ "value": "firday", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "friend",
+      "variants": [{ "value": "freind", "weight": 2 }, { "value": "faired" }, { "value": "fared" }, { "value": "feand" }],
+      "probability": 0.38
+    },
+    {
+      "source": "friendly",
+      "variants": [
+        { "value": "frandely", "weight": 2 },
+        { "value": "freindly" },
+        { "value": "frendly" },
+        { "value": "friendy" }
+      ],
+      "probability": 0.34
+    },
+    {
+      "source": "friends",
+      "variants": [{ "value": "firends", "weight": 2 }, { "value": "fends" }, { "value": "fiends" }, { "value": "firieds" }],
+      "probability": 0.38
+    },
+    {
+      "source": "front",
+      "variants": [{ "value": "frount", "weight": 2 }, { "value": "frunt" }],
+      "probability": 0.22
+    },
+    {
+      "source": "function",
+      "variants": [{ "value": "fuction", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "further",
+      "variants": [{ "value": "furuther", "weight": 2 }, { "value": "farther" }, { "value": "furhter" }, { "value": "futher" }],
+      "probability": 0.34
+    },
+    {
+      "source": "future",
+      "variants": [{ "value": "furt", "weight": 2 }, { "value": "furture" }],
+      "probability": 0.3
+    },
+    {
+      "source": "gallery",
+      "variants": [{ "value": "gailey", "weight": 2 }, { "value": "galarer" }, { "value": "galarey" }, { "value": "galary" }],
+      "probability": 0.38
+    },
+    {
+      "source": "games",
+      "variants": [{ "value": "game", "weight": 2 }, { "value": "gams" }],
+      "probability": 0.22
+    },
+    {
+      "source": "general",
+      "variants": [{ "value": "genale", "weight": 2 }, { "value": "genaral" }, { "value": "generall" }, { "value": "genral" }],
+      "probability": 0.36
+    },
+    {
+      "source": "getting",
+      "variants": [{ "value": "geting", "weight": 2 }, { "value": "gitting" }],
+      "probability": 0.3
+    },
+    {
+      "source": "girls",
+      "variants": [{ "value": "girl", "weight": 2 }, { "value": "girles" }, { "value": "grils" }],
+      "probability": 0.24
+    },
+    {
+      "source": "given",
+      "variants": [{ "value": "givein", "weight": 2 }, { "value": "givin" }],
+      "probability": 0.22
+    },
+    {
+      "source": "glass",
+      "variants": [{ "value": "glars", "weight": 2 }, { "value": "glas" }],
+      "probability": 0.22
+    },
+    {
+      "source": "going",
+      "variants": [{ "value": "gogin", "weight": 2 }, { "value": "goign" }, { "value": "gonig" }, { "value": "gomeing" }],
+      "probability": 0.3
+    },
+    {
+      "source": "government",
+      "variants": [
+        { "value": "goberment", "weight": 2 },
+        { "value": "gobernement" },
+        { "value": "gobernment" },
+        { "value": "goverment" }
+      ],
+      "probability": 0.44
+    },
+    {
+      "source": "great",
+      "variants": [{ "value": "gerat", "weight": 2 }, { "value": "graet" }, { "value": "grat" }, { "value": "gaet" }],
+      "probability": 0.3
+    },
+    {
+      "source": "green",
+      "variants": [{ "value": "gren", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "group",
+      "variants": [{ "value": "groupe", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "groups",
+      "variants": [{ "value": "gonds", "weight": 2 }, { "value": "goopes" }, { "value": "gopes" }, { "value": "gornups" }],
+      "probability": 0.38
+    },
+    {
+      "source": "growth",
+      "variants": [{ "value": "groth", "weight": 2 }, { "value": "grouth" }],
+      "probability": 0.3
+    },
+    {
+      "source": "guide",
+      "variants": [{ "value": "guid", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "happy",
+      "variants": [{ "value": "hap", "weight": 2 }, { "value": "hape" }, { "value": "happe" }, { "value": "happer" }],
+      "probability": 0.3
+    },
+    {
+      "source": "hardware",
+      "variants": [{ "value": "hardwear", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "having",
+      "variants": [{ "value": "hvaing", "weight": 2 }, { "value": "haveing" }],
+      "probability": 0.3
+    },
+    {
+      "source": "health",
+      "variants": [{ "value": "helth", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "heart",
+      "variants": [{ "value": "hart", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "higher",
+      "variants": [{ "value": "higer", "weight": 2 }, { "value": "hier" }, { "value": "hire" }],
+      "probability": 0.32
+    },
+    {
+      "source": "history",
+      "variants": [{ "value": "histroy", "weight": 2 }, { "value": "histry" }],
+      "probability": 0.3
+    },
+    {
+      "source": "holiday",
+      "variants": [{ "value": "hoilday", "weight": 2 }, { "value": "holaday" }, { "value": "holday" }, { "value": "holliday" }],
+      "probability": 0.34
+    },
+    {
+      "source": "hotel",
+      "variants": [{ "value": "hotell", "weight": 2 }, { "value": "hotle" }],
+      "probability": 0.22
+    },
+    {
+      "source": "hours",
+      "variants": [{ "value": "houres", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "house",
+      "variants": [{ "value": "hoesh", "weight": 2 }, { "value": "hose" }, { "value": "hosen" }, { "value": "hoses" }],
+      "probability": 0.3
+    },
+    {
+      "source": "however",
+      "variants": [{ "value": "howaver", "weight": 2 }, { "value": "howver" }, { "value": "howeverr" }, { "value": "howevery" }],
+      "probability": 0.36
+    },
+    {
+      "source": "human",
+      "variants": [{ "value": "humen", "weight": 2 }, { "value": "humon" }],
+      "probability": 0.22
+    },
+    {
+      "source": "ideas",
+      "variants": [{ "value": "idaes", "weight": 2 }, { "value": "idesa" }, { "value": "idea" }],
+      "probability": 0.24
+    },
+    {
+      "source": "important",
+      "variants": [
+        { "value": "import", "weight": 2 },
+        { "value": "importent" },
+        { "value": "importnat" },
+        { "value": "impotant" }
+      ],
+      "probability": 0.34
+    },
+    {
+      "source": "include",
+      "variants": [{ "value": "includ", "weight": 2 }, { "value": "inclued" }],
+      "probability": 0.3
+    },
+    {
+      "source": "includes",
+      "variants": [{ "value": "incueds", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "including",
+      "variants": [{ "value": "include", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "increase",
+      "variants": [{ "value": "increasi", "weight": 2 }, { "value": "increasin" }, { "value": "incress" }],
+      "probability": 0.32
+    },
+    {
+      "source": "independent",
+      "variants": [
+        { "value": "independant", "weight": 2 },
+        { "value": "independenent" },
+        { "value": "indepnends" },
+        { "value": "indipendent" }
+      ],
+      "probability": 0.44
+    },
+    {
+      "source": "individual",
+      "variants": [
+        { "value": "indidual", "weight": 2 },
+        { "value": "indiuidual" },
+        { "value": "individul" },
+        { "value": "individula" }
+      ],
+      "probability": 0.44
+    },
+    {
+      "source": "industrial",
+      "variants": [{ "value": "indutrial", "weight": 2 }, { "value": "industral" }, { "value": "industriol" }],
+      "probability": 0.38
+    },
+    {
+      "source": "industry",
+      "variants": [
+        { "value": "indeery", "weight": 2 },
+        { "value": "inderstey" },
+        { "value": "indistry" },
+        { "value": "indsrey" }
+      ],
+      "probability": 0.38
+    },
+    {
+      "source": "information",
+      "variants": [
+        { "value": "infomation", "weight": 2 },
+        { "value": "imformation" },
+        { "value": "informasion" },
+        { "value": "infromation" }
+      ],
+      "probability": 0.4
+    },
+    {
+      "source": "inside",
+      "variants": [{ "value": "insid", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "institute",
+      "variants": [{ "value": "instute", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "insurance",
+      "variants": [{ "value": "insurence", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "interest",
+      "variants": [
+        { "value": "intrest", "weight": 2 },
+        { "value": "insteret" },
+        { "value": "interested" },
+        { "value": "inturest" }
+      ],
+      "probability": 0.34
+    },
+    {
+      "source": "interesting",
+      "variants": [{ "value": "interisting", "weight": 2 }, { "value": "interresting" }, { "value": "intresting" }],
+      "probability": 0.38
+    },
+    {
+      "source": "international",
+      "variants": [{ "value": "internation", "weight": 2 }],
+      "probability": 0.34
+    },
+    {
+      "source": "island",
+      "variants": [{ "value": "iland", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "issue",
+      "variants": [{ "value": "isue", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "items",
+      "variants": [{ "value": "itims", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "january",
+      "variants": [{ "value": "januery", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "jewelry",
+      "variants": [{ "value": "jewelery", "weight": 2 }, { "value": "jewlery" }],
+      "probability": 0.3
+    },
+    {
+      "source": "journal",
+      "variants": [{ "value": "journel", "weight": 2 }, { "value": "jurnal" }],
+      "probability": 0.3
+    },
+    {
+      "source": "knowledge",
+      "variants": [
+        { "value": "knowlege", "weight": 2 },
+        { "value": "knoledge" },
+        { "value": "knolewge" },
+        { "value": "knowage" }
+      ],
+      "probability": 0.38
+    },
+    {
+      "source": "language",
+      "variants": [
+        { "value": "laguage", "weight": 2 },
+        { "value": "langauge" },
+        { "value": "languge" },
+        { "value": "langwage" }
+      ],
+      "probability": 0.34
+    },
+    {
+      "source": "large",
+      "variants": [{ "value": "lage", "weight": 2 }, { "value": "lagre" }, { "value": "lane" }, { "value": "lardge" }],
+      "probability": 0.3
+    },
+    {
+      "source": "later",
+      "variants": [{ "value": "latey", "weight": 2 }, { "value": "latter" }, { "value": "letter" }],
+      "probability": 0.24
+    },
+    {
+      "source": "latest",
+      "variants": [{ "value": "latext", "weight": 2 }, { "value": "laghtest" }, { "value": "laitest" }, { "value": "laitist" }],
+      "probability": 0.38
+    },
+    {
+      "source": "learn",
+      "variants": [{ "value": "leanr", "weight": 2 }, { "value": "leran" }, { "value": "larn" }, { "value": "lean" }],
+      "probability": 0.3
+    },
+    {
+      "source": "learning",
+      "variants": [
+        { "value": "learing", "weight": 2 },
+        { "value": "learining" },
+        { "value": "learnning" },
+        { "value": "lerning" }
+      ],
+      "probability": 0.34
+    },
+    {
+      "source": "least",
+      "variants": [{ "value": "lest", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "leave",
+      "variants": [{ "value": "leasve", "weight": 2 }, { "value": "leve" }, { "value": "levef" }, { "value": "lever" }],
+      "probability": 0.28
+    },
+    {
+      "source": "legal",
+      "variants": [{ "value": "leagel", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "length",
+      "variants": [{ "value": "lenght", "weight": 2 }, { "value": "lengh" }, { "value": "lenth" }],
+      "probability": 0.32
+    },
+    {
+      "source": "letter",
+      "variants": [{ "value": "leter", "weight": 2 }, { "value": "letre" }],
+      "probability": 0.3
+    },
+    {
+      "source": "level",
+      "variants": [{ "value": "levle", "weight": 2 }, { "value": "leaul" }, { "value": "leavel" }, { "value": "leuul" }],
+      "probability": 0.3
+    },
+    {
+      "source": "levels",
+      "variants": [{ "value": "levals", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "license",
+      "variants": [{ "value": "lisence", "weight": 2 }, { "value": "lisense" }, { "value": "licence" }],
+      "probability": 0.32
+    },
+    {
+      "source": "light",
+      "variants": [{ "value": "lit", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "limited",
+      "variants": [{ "value": "limitted", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "lines",
+      "variants": [{ "value": "line", "weight": 2 }, { "value": "lins" }],
+      "probability": 0.22
+    },
+    {
+      "source": "listings",
+      "variants": [{ "value": "listsings", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "living",
+      "variants": [{ "value": "liveing", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "loans",
+      "variants": [{ "value": "lones", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "local",
+      "variants": [{ "value": "locar", "weight": 2 }, { "value": "loceh" }, { "value": "locke" }, { "value": "lockel" }],
+      "probability": 0.3
+    },
+    {
+      "source": "location",
+      "variants": [{ "value": "loction", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "looking",
+      "variants": [{ "value": "liking", "weight": 2 }, { "value": "locking" }, { "value": "loking" }, { "value": "looing" }],
+      "probability": 0.38
+    },
+    {
+      "source": "lower",
+      "variants": [{ "value": "louer", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "machine",
+      "variants": [{ "value": "machane", "weight": 2 }, { "value": "machein" }, { "value": "macheine" }, { "value": "machian" }],
+      "probability": 0.38
+    },
+    {
+      "source": "magazine",
+      "variants": [{ "value": "magazen", "weight": 2 }, { "value": "magerzine" }, { "value": "magizine" }],
+      "probability": 0.32
+    },
+    {
+      "source": "maintenance",
+      "variants": [
+        { "value": "maintanence", "weight": 2 },
+        { "value": "maintainance" },
+        { "value": "maintainence" },
+        { "value": "maintance" }
+      ],
+      "probability": 0.44
+    },
+    {
+      "source": "makes",
+      "variants": [{ "value": "makse", "weight": 2 }, { "value": "mkaes" }, { "value": "maks" }],
+      "probability": 0.24
+    },
+    {
+      "source": "making",
+      "variants": [{ "value": "mkaing", "weight": 2 }, { "value": "macking" }, { "value": "makeing" }],
+      "probability": 0.32
+    },
+    {
+      "source": "management",
+      "variants": [{ "value": "managment", "weight": 2 }, { "value": "manegment" }],
+      "probability": 0.36
+    },
+    {
+      "source": "manager",
+      "variants": [{ "value": "maneger", "weight": 2 }, { "value": "manger" }],
+      "probability": 0.3
+    },
+    {
+      "source": "march",
+      "variants": [{ "value": "mach", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "marketing",
+      "variants": [{ "value": "marketting", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "material",
+      "variants": [{ "value": "matariel", "weight": 2 }, { "value": "materiel" }, { "value": "matieral" }],
+      "probability": 0.32
+    },
+    {
+      "source": "matter",
+      "variants": [{ "value": "mater", "weight": 2 }, { "value": "mather" }, { "value": "matr" }],
+      "probability": 0.32
+    },
+    {
+      "source": "means",
+      "variants": [{ "value": "meens", "weight": 2 }, { "value": "mens" }],
+      "probability": 0.22
+    },
+    {
+      "source": "media",
+      "variants": [{ "value": "midia", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "medicine",
+      "variants": [
+        { "value": "medacine", "weight": 2 },
+        { "value": "medecine" },
+        { "value": "medicen" },
+        { "value": "medicene" }
+      ],
+      "probability": 0.36
+    },
+    {
+      "source": "meeting",
+      "variants": [{ "value": "meating", "weight": 2 }, { "value": "meetin" }, { "value": "meetting" }],
+      "probability": 0.32
+    },
+    {
+      "source": "member",
+      "variants": [{ "value": "memeber", "weight": 2 }, { "value": "menber" }],
+      "probability": 0.3
+    },
+    {
+      "source": "members",
+      "variants": [{ "value": "menbers", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "memory",
+      "variants": [{ "value": "meory", "weight": 2 }, { "value": "memery" }, { "value": "memmory" }, { "value": "memorey" }],
+      "probability": 0.38
+    },
+    {
+      "source": "message",
+      "variants": [{ "value": "mesage", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "method",
+      "variants": [{ "value": "methed", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "middle",
+      "variants": [{ "value": "middal", "weight": 2 }, { "value": "midle" }],
+      "probability": 0.3
+    },
+    {
+      "source": "might",
+      "variants": [{ "value": "maiht", "weight": 2 }, { "value": "mit" }],
+      "probability": 0.22
+    },
+    {
+      "source": "miles",
+      "variants": [{ "value": "mills", "weight": 2 }, { "value": "mils" }],
+      "probability": 0.22
+    },
+    {
+      "source": "military",
+      "variants": [{ "value": "millitary", "weight": 2 }, { "value": "milatary" }, { "value": "militery" }],
+      "probability": 0.32
+    },
+    {
+      "source": "million",
+      "variants": [{ "value": "millon", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "minutes",
+      "variants": [{ "value": "minits", "weight": 2 }, { "value": "minuets" }, { "value": "minuites" }, { "value": "minuts" }],
+      "probability": 0.38
+    },
+    {
+      "source": "model",
+      "variants": [{ "value": "modle", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "monday",
+      "variants": [{ "value": "munday", "weight": 2 }, { "value": "mond" }],
+      "probability": 0.3
+    },
+    {
+      "source": "money",
+      "variants": [{ "value": "moeny", "weight": 2 }, { "value": "mony" }, { "value": "mooey" }, { "value": "munny" }],
+      "probability": 0.26
+    },
+    {
+      "source": "month",
+      "variants": [{ "value": "moth", "weight": 2 }, { "value": "munth" }, { "value": "munthy" }],
+      "probability": 0.24
+    },
+    {
+      "source": "months",
+      "variants": [{ "value": "monthes", "weight": 2 }, { "value": "moths" }, { "value": "mouths" }, { "value": "muns" }],
+      "probability": 0.34
+    },
+    {
+      "source": "mortgage",
+      "variants": [{ "value": "morgage", "weight": 2 }, { "value": "margage" }, { "value": "merguge" }, { "value": "mogage" }],
+      "probability": 0.38
+    },
+    {
+      "source": "movie",
+      "variants": [{ "value": "movei", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "music",
+      "variants": [{ "value": "muic", "weight": 2 }, { "value": "muice" }],
+      "probability": 0.22
+    },
+    {
+      "source": "names",
+      "variants": [{ "value": "name", "weight": 2 }, { "value": "nams" }, { "value": "neams" }],
+      "probability": 0.24
+    },
+    {
+      "source": "natural",
+      "variants": [{ "value": "naturual", "weight": 2 }, { "value": "natrual" }, { "value": "natureal" }],
+      "probability": 0.32
+    },
+    {
+      "source": "nature",
+      "variants": [{ "value": "natior", "weight": 2 }, { "value": "nuture" }],
+      "probability": 0.3
+    },
+    {
+      "source": "necessary",
+      "variants": [
+        { "value": "neccessary", "weight": 2 },
+        { "value": "necesary" },
+        { "value": "necesser" },
+        { "value": "neccesary" }
+      ],
+      "probability": 0.38
+    },
+    {
+      "source": "needed",
+      "variants": [{ "value": "neaded", "weight": 2 }, { "value": "nedded" }, { "value": "need" }],
+      "probability": 0.32
+    },
+    {
+      "source": "needs",
+      "variants": [{ "value": "neads", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "never",
+      "variants": [{ "value": "naver", "weight": 2 }, { "value": "neaver" }, { "value": "neiver" }, { "value": "ner" }],
+      "probability": 0.3
+    },
+    {
+      "source": "night",
+      "variants": [{ "value": "nichgt", "weight": 2 }, { "value": "niet" }, { "value": "nigth" }, { "value": "nint" }],
+      "probability": 0.28
+    },
+    {
+      "source": "north",
+      "variants": [{ "value": "noth", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "notes",
+      "variants": [{ "value": "nots", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "nothing",
+      "variants": [{ "value": "noting", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "notice",
+      "variants": [{ "value": "notes", "weight": 2 }, { "value": "notest" }, { "value": "notic" }],
+      "probability": 0.32
+    },
+    {
+      "source": "number",
+      "variants": [{ "value": "nober", "weight": 2 }, { "value": "nomber" }, { "value": "nuber" }, { "value": "numbe" }],
+      "probability": 0.38
+    },
+    {
+      "source": "numbers",
+      "variants": [{ "value": "nubers", "weight": 2 }, { "value": "numbuers" }],
+      "probability": 0.3
+    },
+    {
+      "source": "object",
+      "variants": [{ "value": "objet", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "occurred",
+      "variants": [{ "value": "occured", "weight": 2 }, { "value": "ocurred" }, { "value": "occureed" }],
+      "probability": 0.32
+    },
+    {
+      "source": "october",
+      "variants": [{ "value": "octber", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "offer",
+      "variants": [{ "value": "ofer", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "office",
+      "variants": [{ "value": "ofice", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "official",
+      "variants": [{ "value": "offical", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "often",
+      "variants": [{ "value": "ofan", "weight": 2 }, { "value": "ofden" }, { "value": "ofdun" }, { "value": "ofed" }],
+      "probability": 0.3
+    },
+    {
+      "source": "operating",
+      "variants": [{ "value": "opperating", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "operations",
+      "variants": [{ "value": "operatins", "weight": 2 }],
+      "probability": 0.34
+    },
+    {
+      "source": "opportunities",
+      "variants": [
+        { "value": "opertinities", "weight": 2 },
+        { "value": "opertonites" },
+        { "value": "opertunaties" },
+        { "value": "opertunites" }
+      ],
+      "probability": 0.44
+    },
+    {
+      "source": "order",
+      "variants": [{ "value": "oder", "weight": 2 }, { "value": "oredr" }, { "value": "orter" }],
+      "probability": 0.24
+    },
+    {
+      "source": "orders",
+      "variants": [{ "value": "oders", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "organization",
+      "variants": [
+        { "value": "oragnisation", "weight": 2 },
+        { "value": "oranisation" },
+        { "value": "organazation" },
+        { "value": "orginization" }
+      ],
+      "probability": 0.4
+    },
+    {
+      "source": "original",
+      "variants": [{ "value": "orginal", "weight": 2 }, { "value": "origional" }, { "value": "origanal" }],
+      "probability": 0.32
+    },
+    {
+      "source": "other",
+      "variants": [{ "value": "otehr", "weight": 2 }, { "value": "oathe" }, { "value": "othere" }, { "value": "othuer" }],
+      "probability": 0.3
+    },
+    {
+      "source": "others",
+      "variants": [{ "value": "other", "weight": 2 }, { "value": "outhers" }],
+      "probability": 0.3
+    },
+    {
+      "source": "outside",
+      "variants": [{ "value": "outsid", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "overall",
+      "variants": [{ "value": "overal", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "package",
+      "variants": [{ "value": "packege", "weight": 2 }, { "value": "pakage" }],
+      "probability": 0.3
+    },
+    {
+      "source": "pages",
+      "variants": [{ "value": "pagis", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "paper",
+      "variants": [{ "value": "papr", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "particular",
+      "variants": [
+        { "value": "partrucal", "weight": 2 },
+        { "value": "parituclar" },
+        { "value": "paerticulaur" },
+        { "value": "paritular" }
+      ],
+      "probability": 0.44
+    },
+    {
+      "source": "party",
+      "variants": [{ "value": "parte", "weight": 2 }, { "value": "partey" }, { "value": "partie" }],
+      "probability": 0.24
+    },
+    {
+      "source": "payment",
+      "variants": [{ "value": "pament", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "people",
+      "variants": [{ "value": "peopel", "weight": 2 }, { "value": "peaper" }, { "value": "peapl" }, { "value": "peaple" }],
+      "probability": 0.38
+    },
+    {
+      "source": "performance",
+      "variants": [{ "value": "performence", "weight": 2 }, { "value": "performecs" }],
+      "probability": 0.36
+    },
+    {
+      "source": "period",
+      "variants": [{ "value": "perend", "weight": 2 }, { "value": "pero" }, { "value": "peroid" }],
+      "probability": 0.32
+    },
+    {
+      "source": "person",
+      "variants": [{ "value": "percon", "weight": 2 }, { "value": "persen" }, { "value": "porson" }],
+      "probability": 0.32
+    },
+    {
+      "source": "personal",
+      "variants": [{ "value": "personel", "weight": 2 }, { "value": "persnal" }, { "value": "personly" }],
+      "probability": 0.32
+    },
+    {
+      "source": "phone",
+      "variants": [{ "value": "phome", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "physical",
+      "variants": [{ "value": "phisical", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "picture",
+      "variants": [{ "value": "picher", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "pictures",
+      "variants": [{ "value": "pichires", "weight": 2 }, { "value": "pichors" }, { "value": "picturs" }],
+      "probability": 0.32
+    },
+    {
+      "source": "place",
+      "variants": [{ "value": "palce", "weight": 2 }, { "value": "plaice" }, { "value": "plas" }, { "value": "plase" }],
+      "probability": 0.26
+    },
+    {
+      "source": "planning",
+      "variants": [{ "value": "planing", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "please",
+      "variants": [{ "value": "pleas", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "point",
+      "variants": [{ "value": "pont", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "police",
+      "variants": [{ "value": "pollice", "weight": 2 }, { "value": "palice" }],
+      "probability": 0.3
+    },
+    {
+      "source": "policy",
+      "variants": [{ "value": "pilicy", "weight": 2 }, { "value": "polisy" }, { "value": "polocy" }],
+      "probability": 0.32
+    },
+    {
+      "source": "political",
+      "variants": [{ "value": "polictical", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "popular",
+      "variants": [{ "value": "populer", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "population",
+      "variants": [{ "value": "poplation", "weight": 2 }, { "value": "poputtion" }],
+      "probability": 0.36
+    },
+    {
+      "source": "position",
+      "variants": [
+        { "value": "positon", "weight": 2 },
+        { "value": "possition" },
+        { "value": "postion" },
+        { "value": "posistion" }
+      ],
+      "probability": 0.36
+    },
+    {
+      "source": "possible",
+      "variants": [
+        { "value": "possable", "weight": 2 },
+        { "value": "pissible" },
+        { "value": "posible" },
+        { "value": "possibly" }
+      ],
+      "probability": 0.34
+    },
+    {
+      "source": "posts",
+      "variants": [{ "value": "post", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "power",
+      "variants": [{ "value": "pwoer", "weight": 2 }, { "value": "pour" }],
+      "probability": 0.22
+    },
+    {
+      "source": "practice",
+      "variants": [{ "value": "practis", "weight": 2 }, { "value": "practise" }, { "value": "pratise" }],
+      "probability": 0.32
+    },
+    {
+      "source": "present",
+      "variants": [{ "value": "preasent", "weight": 2 }, { "value": "presant" }, { "value": "prosent" }],
+      "probability": 0.32
+    },
+    {
+      "source": "president",
+      "variants": [{ "value": "presedent", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "press",
+      "variants": [{ "value": "prass", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "previous",
+      "variants": [
+        { "value": "previvous", "weight": 2 },
+        { "value": "preveous" },
+        { "value": "previos" },
+        { "value": "previus" }
+      ],
+      "probability": 0.34
+    },
+    {
+      "source": "price",
+      "variants": [{ "value": "prise", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "primary",
+      "variants": [{ "value": "pramiey", "weight": 2 }, { "value": "pramry" }, { "value": "premary" }, { "value": "priamay" }],
+      "probability": 0.38
+    },
+    {
+      "source": "print",
+      "variants": [{ "value": "prent", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "prior",
+      "variants": [{ "value": "pair", "weight": 2 }, { "value": "pier" }, { "value": "pior" }, { "value": "pirier" }],
+      "probability": 0.3
+    },
+    {
+      "source": "private",
+      "variants": [{ "value": "privite", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "problem",
+      "variants": [{ "value": "probelm", "weight": 2 }, { "value": "perblam" }, { "value": "pobben" }, { "value": "pobble" }],
+      "probability": 0.38
+    },
+    {
+      "source": "problems",
+      "variants": [{ "value": "problem", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "process",
+      "variants": [{ "value": "proccess", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "product",
+      "variants": [{ "value": "prodect", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "production",
+      "variants": [{ "value": "productions", "weight": 2 }],
+      "probability": 0.34
+    },
+    {
+      "source": "products",
+      "variants": [{ "value": "produts", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "professional",
+      "variants": [{ "value": "proffesional", "weight": 2 }, { "value": "proffessinal" }],
+      "probability": 0.36
+    },
+    {
+      "source": "program",
+      "variants": [{ "value": "progrom", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "programs",
+      "variants": [{ "value": "progroms", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "project",
+      "variants": [{ "value": "pojert", "weight": 2 }, { "value": "poujent" }, { "value": "prget" }, { "value": "progect" }],
+      "probability": 0.38
+    },
+    {
+      "source": "projects",
+      "variants": [{ "value": "projeccts", "weight": 2 }, { "value": "projets" }],
+      "probability": 0.3
+    },
+    {
+      "source": "property",
+      "variants": [{ "value": "propety", "weight": 2 }, { "value": "propity" }],
+      "probability": 0.3
+    },
+    {
+      "source": "protection",
+      "variants": [{ "value": "proction", "weight": 2 }, { "value": "protaction" }, { "value": "protecktion" }],
+      "probability": 0.38
+    },
+    {
+      "source": "provide",
+      "variants": [{ "value": "provid", "weight": 2 }, { "value": "provied" }],
+      "probability": 0.3
+    },
+    {
+      "source": "provided",
+      "variants": [{ "value": "provded", "weight": 2 }, { "value": "provied" }],
+      "probability": 0.3
+    },
+    {
+      "source": "public",
+      "variants": [{ "value": "publick", "weight": 2 }, { "value": "puplic" }],
+      "probability": 0.3
+    },
+    {
+      "source": "published",
+      "variants": [{ "value": "puplished", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "purchase",
+      "variants": [{ "value": "perchase", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "purpose",
+      "variants": [{ "value": "perpose", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "quality",
+      "variants": [{ "value": "quailty", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "question",
+      "variants": [{ "value": "queston", "weight": 2 }, { "value": "qustion" }],
+      "probability": 0.3
+    },
+    {
+      "source": "questions",
+      "variants": [{ "value": "qustions", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "quick",
+      "variants": [{ "value": "quck", "weight": 2 }, { "value": "quik" }, { "value": "quite" }],
+      "probability": 0.24
+    },
+    {
+      "source": "quote",
+      "variants": [{ "value": "quot", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "radio",
+      "variants": [{ "value": "raido", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "rather",
+      "variants": [{ "value": "rarther", "weight": 2 }, { "value": "rarver" }, { "value": "raver" }],
+      "probability": 0.32
+    },
+    {
+      "source": "rating",
+      "variants": [{ "value": "racking", "weight": 2 }, { "value": "radicing" }, { "value": "raiding" }, { "value": "raining" }],
+      "probability": 0.38
+    },
+    {
+      "source": "reading",
+      "variants": [{ "value": "reding", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "ready",
+      "variants": [{ "value": "reader", "weight": 2 }, { "value": "rede" }, { "value": "redy" }],
+      "probability": 0.24
+    },
+    {
+      "source": "really",
+      "variants": [{ "value": "raelly", "weight": 2 }, { "value": "realy" }, { "value": "realyl" }, { "value": "relaly" }],
+      "probability": 0.38
+    },
+    {
+      "source": "reason",
+      "variants": [{ "value": "reson", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "receive",
+      "variants": [{ "value": "recieve", "weight": 2 }, { "value": "receave" }],
+      "probability": 0.3
+    },
+    {
+      "source": "received",
+      "variants": [{ "value": "recieved", "weight": 2 }, { "value": "rceed" }, { "value": "recavied" }, { "value": "receaved" }],
+      "probability": 0.38
+    },
+    {
+      "source": "recent",
+      "variants": [{ "value": "resent", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "recommend",
+      "variants": [
+        { "value": "reccomend", "weight": 2 },
+        { "value": "reccommend" },
+        { "value": "recomend" },
+        { "value": "reccommended" }
+      ],
+      "probability": 0.38
+    },
+    {
+      "source": "record",
+      "variants": [{ "value": "recrod", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "records",
+      "variants": [{ "value": "rocords", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "reference",
+      "variants": [
+        { "value": "referrence", "weight": 2 },
+        { "value": "refference" },
+        { "value": "referance" },
+        { "value": "refereence" }
+      ],
+      "probability": 0.38
+    },
+    {
+      "source": "region",
+      "variants": [{ "value": "reachn", "weight": 2 }, { "value": "reachon" }, { "value": "reagen" }, { "value": "reaghen" }],
+      "probability": 0.38
+    },
+    {
+      "source": "register",
+      "variants": [
+        { "value": "redishter", "weight": 2 },
+        { "value": "regester" },
+        { "value": "registra" },
+        { "value": "registur" }
+      ],
+      "probability": 0.36
+    },
+    {
+      "source": "registration",
+      "variants": [{ "value": "regestration", "weight": 2 }, { "value": "registeration" }, { "value": "resgustreation" }],
+      "probability": 0.38
+    },
+    {
+      "source": "regular",
+      "variants": [{ "value": "regluar", "weight": 2 }, { "value": "reguler" }],
+      "probability": 0.3
+    },
+    {
+      "source": "remember",
+      "variants": [
+        { "value": "remeber", "weight": 2 },
+        { "value": "reambeer" },
+        { "value": "reamber" },
+        { "value": "reameder" }
+      ],
+      "probability": 0.38
+    },
+    {
+      "source": "reply",
+      "variants": [{ "value": "replie", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "reports",
+      "variants": [{ "value": "reoprts", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "request",
+      "variants": [{ "value": "requst", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "required",
+      "variants": [{ "value": "recquired", "weight": 2 }, { "value": "reequired" }],
+      "probability": 0.3
+    },
+    {
+      "source": "research",
+      "variants": [{ "value": "reasearch", "weight": 2 }, { "value": "resar" }, { "value": "resarc" }, { "value": "researh" }],
+      "probability": 0.38
+    },
+    {
+      "source": "reserved",
+      "variants": [{ "value": "rerved", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "resource",
+      "variants": [{ "value": "recauce", "weight": 2 }, { "value": "recoce" }, { "value": "recorce" }, { "value": "recorse" }],
+      "probability": 0.38
+    },
+    {
+      "source": "resources",
+      "variants": [
+        { "value": "recources", "weight": 2 },
+        { "value": "rescources" },
+        { "value": "resorces" },
+        { "value": "resours" }
+      ],
+      "probability": 0.34
+    },
+    {
+      "source": "response",
+      "variants": [{ "value": "reponse", "weight": 2 }, { "value": "responce" }],
+      "probability": 0.3
+    },
+    {
+      "source": "responsible",
+      "variants": [
+        { "value": "reposable", "weight": 2 },
+        { "value": "reponsible" },
+        { "value": "responcible" },
+        { "value": "responsable" }
+      ],
+      "probability": 0.4
+    },
+    {
+      "source": "restaurant",
+      "variants": [
+        { "value": "restaraunt", "weight": 2 },
+        { "value": "resteraunt" },
+        { "value": "restraunt" },
+        { "value": "reasturant" }
+      ],
+      "probability": 0.44
+    },
+    {
+      "source": "results",
+      "variants": [{ "value": "result", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "review",
+      "variants": [{ "value": "revew", "weight": 2 }, { "value": "revue" }],
+      "probability": 0.3
+    },
+    {
+      "source": "right",
+      "variants": [{ "value": "rigth", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "river",
+      "variants": [{ "value": "rever", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "rooms",
+      "variants": [{ "value": "rome", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "round",
+      "variants": [{ "value": "rod", "weight": 2 }, { "value": "roid" }, { "value": "rond" }, { "value": "ronud" }],
+      "probability": 0.3
+    },
+    {
+      "source": "running",
+      "variants": [{ "value": "runnung", "weight": 2 }, { "value": "runing" }, { "value": "runnig" }],
+      "probability": 0.32
+    },
+    {
+      "source": "safety",
+      "variants": [{ "value": "saftey", "weight": 2 }, { "value": "safty" }],
+      "probability": 0.3
+    },
+    {
+      "source": "sample",
+      "variants": [{ "value": "sampel", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "saturday",
+      "variants": [{ "value": "saterday", "weight": 2 }, { "value": "satuarday" }],
+      "probability": 0.3
+    },
+    {
+      "source": "schedule",
+      "variants": [
+        { "value": "schedual", "weight": 2 },
+        { "value": "scadule" },
+        { "value": "scedgae" },
+        { "value": "scedgule" }
+      ],
+      "probability": 0.38
+    },
+    {
+      "source": "school",
+      "variants": [{ "value": "schoal", "weight": 2 }, { "value": "schol" }, { "value": "scholl" }, { "value": "schoo" }],
+      "probability": 0.38
+    },
+    {
+      "source": "schools",
+      "variants": [{ "value": "schol", "weight": 2 }, { "value": "school" }],
+      "probability": 0.3
+    },
+    {
+      "source": "science",
+      "variants": [{ "value": "sceince", "weight": 2 }, { "value": "scieme" }, { "value": "scienc" }, { "value": "scienee" }],
+      "probability": 0.38
+    },
+    {
+      "source": "score",
+      "variants": [{ "value": "scor", "weight": 2 }, { "value": "skore" }],
+      "probability": 0.22
+    },
+    {
+      "source": "search",
+      "variants": [{ "value": "seaarch", "weight": 2 }, { "value": "serch" }],
+      "probability": 0.3
+    },
+    {
+      "source": "season",
+      "variants": [{ "value": "seson", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "second",
+      "variants": [{ "value": "secand", "weight": 2 }, { "value": "seconnd" }, { "value": "secund" }, { "value": "sekon" }],
+      "probability": 0.36
+    },
+    {
+      "source": "section",
+      "variants": [{ "value": "secion", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "secure",
+      "variants": [{ "value": "sicure", "weight": 2 }, { "value": "sucure" }, { "value": "surcure" }],
+      "probability": 0.32
+    },
+    {
+      "source": "security",
+      "variants": [{ "value": "secruitey", "weight": 2 }, { "value": "seurity" }],
+      "probability": 0.3
+    },
+    {
+      "source": "separate",
+      "variants": [{ "value": "seperate", "weight": 2 }, { "value": "seporate" }, { "value": "seprate" }],
+      "probability": 0.32
+    },
+    {
+      "source": "september",
+      "variants": [{ "value": "septenber", "weight": 2 }, { "value": "septmber" }],
+      "probability": 0.3
+    },
+    {
+      "source": "series",
+      "variants": [{ "value": "serious", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "service",
+      "variants": [{ "value": "servace", "weight": 2 }, { "value": "servise" }, { "value": "survice" }],
+      "probability": 0.32
+    },
+    {
+      "source": "several",
+      "variants": [{ "value": "seferal", "weight": 2 }, { "value": "severeal" }, { "value": "severl" }, { "value": "sevral" }],
+      "probability": 0.34
+    },
+    {
+      "source": "shall",
+      "variants": [{ "value": "sall", "weight": 2 }, { "value": "shal" }, { "value": "shale" }],
+      "probability": 0.24
+    },
+    {
+      "source": "share",
+      "variants": [{ "value": "shair", "weight": 2 }, { "value": "shear" }],
+      "probability": 0.22
+    },
+    {
+      "source": "shipping",
+      "variants": [{ "value": "shiping", "weight": 2 }, { "value": "shippin" }],
+      "probability": 0.3
+    },
+    {
+      "source": "shoes",
+      "variants": [{ "value": "shose", "weight": 2 }, { "value": "shows" }],
+      "probability": 0.22
+    },
+    {
+      "source": "shopping",
+      "variants": [{ "value": "shoping", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "short",
+      "variants": [{ "value": "shot", "weight": 2 }, { "value": "sort" }],
+      "probability": 0.22
+    },
+    {
+      "source": "shown",
+      "variants": [{ "value": "shone", "weight": 2 }, { "value": "show" }, { "value": "showen" }],
+      "probability": 0.24
+    },
+    {
+      "source": "silver",
+      "variants": [{ "value": "siver", "weight": 2 }, { "value": "sliver" }],
+      "probability": 0.3
+    },
+    {
+      "source": "similar",
+      "variants": [{ "value": "similiar", "weight": 2 }, { "value": "simmilar" }, { "value": "simia" }, { "value": "simlar" }],
+      "probability": 0.36
+    },
+    {
+      "source": "simple",
+      "variants": [{ "value": "sempal", "weight": 2 }, { "value": "simpel" }],
+      "probability": 0.3
+    },
+    {
+      "source": "simply",
+      "variants": [{ "value": "simplye", "weight": 2 }, { "value": "simpley" }, { "value": "simpliy" }],
+      "probability": 0.32
+    },
+    {
+      "source": "since",
+      "variants": [{ "value": "sicne", "weight": 2 }, { "value": "sinse" }, { "value": "scince" }, { "value": "sins" }],
+      "probability": 0.26
+    },
+    {
+      "source": "single",
+      "variants": [{ "value": "singel", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "small",
+      "variants": [{ "value": "smal", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "social",
+      "variants": [{ "value": "socal", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "society",
+      "variants": [{ "value": "sciety", "weight": 2 }, { "value": "socity" }],
+      "probability": 0.3
+    },
+    {
+      "source": "software",
+      "variants": [{ "value": "sofware", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "someone",
+      "variants": [{ "value": "saneone", "weight": 2 }, { "value": "somo" }, { "value": "somone" }, { "value": "sumone" }],
+      "probability": 0.34
+    },
+    {
+      "source": "something",
+      "variants": [
+        { "value": "sometheing", "weight": 2 },
+        { "value": "somethig" },
+        { "value": "somethink" },
+        { "value": "somthing" }
+      ],
+      "probability": 0.34
+    },
+    {
+      "source": "sound",
+      "variants": [{ "value": "soudn", "weight": 2 }, { "value": "saend" }, { "value": "sand" }, { "value": "saund" }],
+      "probability": 0.3
+    },
+    {
+      "source": "source",
+      "variants": [{ "value": "sauce", "weight": 2 }, { "value": "sorce" }, { "value": "sourse" }],
+      "probability": 0.32
+    },
+    {
+      "source": "sources",
+      "variants": [{ "value": "sorces", "weight": 2 }, { "value": "souces" }],
+      "probability": 0.3
+    },
+    {
+      "source": "south",
+      "variants": [{ "value": "sourth", "weight": 2 }, { "value": "sorth" }, { "value": "soth" }],
+      "probability": 0.24
+    },
+    {
+      "source": "space",
+      "variants": [{ "value": "spase", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "special",
+      "variants": [{ "value": "secial", "weight": 2 }, { "value": "sepcil" }, { "value": "sepical" }, { "value": "shechel" }],
+      "probability": 0.38
+    },
+    {
+      "source": "specific",
+      "variants": [
+        { "value": "specif", "weight": 2 },
+        { "value": "specifa" },
+        { "value": "sespecific" },
+        { "value": "spacific" }
+      ],
+      "probability": 0.38
+    },
+    {
+      "source": "speed",
+      "variants": [{ "value": "spead", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "sponsored",
+      "variants": [{ "value": "sponsered", "weight": 2 }, { "value": "sponzored" }],
+      "probability": 0.3
+    },
+    {
+      "source": "sport",
+      "variants": [{ "value": "short", "weight": 2 }, { "value": "spot" }, { "value": "sprot" }],
+      "probability": 0.24
+    },
+    {
+      "source": "sports",
+      "variants": [{ "value": "storts", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "spring",
+      "variants": [{ "value": "sping", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "standard",
+      "variants": [{ "value": "standed", "weight": 2 }, { "value": "standerd" }, { "value": "stnadard" }],
+      "probability": 0.32
+    },
+    {
+      "source": "start",
+      "variants": [{ "value": "strat", "weight": 2 }, { "value": "stab" }, { "value": "stat" }],
+      "probability": 0.24
+    },
+    {
+      "source": "started",
+      "variants": [{ "value": "sarted", "weight": 2 }, { "value": "serted" }, { "value": "start" }],
+      "probability": 0.32
+    },
+    {
+      "source": "starting",
+      "variants": [{ "value": "staring", "weight": 2 }, { "value": "startin" }],
+      "probability": 0.3
+    },
+    {
+      "source": "state",
+      "variants": [{ "value": "stat", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "statement",
+      "variants": [{ "value": "statment", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "states",
+      "variants": [{ "value": "stats", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "station",
+      "variants": [{ "value": "sashon", "weight": 2 }, { "value": "stachon" }, { "value": "staeing" }, { "value": "staion" }],
+      "probability": 0.38
+    },
+    {
+      "source": "statistics",
+      "variants": [
+        { "value": "statics", "weight": 2 },
+        { "value": "sasticics" },
+        { "value": "sastictic" },
+        { "value": "sastictics" }
+      ],
+      "probability": 0.44
+    },
+    {
+      "source": "stock",
+      "variants": [{ "value": "stark", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "store",
+      "variants": [{ "value": "stor", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "stories",
+      "variants": [{ "value": "storeis", "weight": 2 }, { "value": "storise" }, { "value": "stores" }, { "value": "story" }],
+      "probability": 0.36
+    },
+    {
+      "source": "story",
+      "variants": [{ "value": "sotry", "weight": 2 }, { "value": "stopry" }, { "value": "stoyr" }, { "value": "stroy" }],
+      "probability": 0.3
+    },
+    {
+      "source": "street",
+      "variants": [{ "value": "seat", "weight": 2 }, { "value": "seet" }, { "value": "seets" }, { "value": "sratt" }],
+      "probability": 0.38
+    },
+    {
+      "source": "structure",
+      "variants": [
+        { "value": "stucture", "weight": 2 },
+        { "value": "strcture" },
+        { "value": "structrue" },
+        { "value": "structu" }
+      ],
+      "probability": 0.34
+    },
+    {
+      "source": "student",
+      "variants": [{ "value": "stutent", "weight": 2 }, { "value": "studend" }, { "value": "sudent" }],
+      "probability": 0.32
+    },
+    {
+      "source": "students",
+      "variants": [{ "value": "studens", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "studies",
+      "variants": [{ "value": "studys", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "study",
+      "variants": [{ "value": "studdy", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "stuff",
+      "variants": [{ "value": "stof", "weight": 2 }, { "value": "stuf" }],
+      "probability": 0.22
+    },
+    {
+      "source": "style",
+      "variants": [{ "value": "stile", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "subject",
+      "variants": [{ "value": "subgect", "weight": 2 }, { "value": "subjects" }, { "value": "subjuct" }, { "value": "sugest" }],
+      "probability": 0.34
+    },
+    {
+      "source": "submit",
+      "variants": [{ "value": "submite", "weight": 2 }, { "value": "sumit" }],
+      "probability": 0.3
+    },
+    {
+      "source": "successful",
+      "variants": [
+        { "value": "succesful", "weight": 2 },
+        { "value": "successfull" },
+        { "value": "sucesful" },
+        { "value": "sucessfull" }
+      ],
+      "probability": 0.44
+    },
+    {
+      "source": "summary",
+      "variants": [{ "value": "sumary", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "summer",
+      "variants": [{ "value": "sumer", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "sunday",
+      "variants": [{ "value": "sanday", "weight": 2 }, { "value": "sonday" }, { "value": "sunbay" }, { "value": "sundays" }],
+      "probability": 0.36
+    },
+    {
+      "source": "supplies",
+      "variants": [{ "value": "supply", "weight": 2 }, { "value": "supplys" }],
+      "probability": 0.3
+    },
+    {
+      "source": "supply",
+      "variants": [{ "value": "suply", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "support",
+      "variants": [{ "value": "serport", "weight": 2 }, { "value": "suport" }, { "value": "suppart" }],
+      "probability": 0.32
+    },
+    {
+      "source": "survey",
+      "variants": [{ "value": "survay", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "system",
+      "variants": [{ "value": "sistem", "weight": 2 }, { "value": "sysem" }],
+      "probability": 0.3
+    },
+    {
+      "source": "table",
+      "variants": [{ "value": "tabel", "weight": 2 }, { "value": "tabl" }, { "value": "tasble" }],
+      "probability": 0.24
+    },
+    {
+      "source": "taken",
+      "variants": [{ "value": "tacen", "weight": 2 }, { "value": "tacken" }, { "value": "taeken" }, { "value": "take" }],
+      "probability": 0.3
+    },
+    {
+      "source": "taking",
+      "variants": [{ "value": "tkaing", "weight": 2 }, { "value": "takeing" }, { "value": "takin" }],
+      "probability": 0.32
+    },
+    {
+      "source": "technical",
+      "variants": [
+        { "value": "tacknical", "weight": 2 },
+        { "value": "tacnical" },
+        { "value": "techanical" },
+        { "value": "techenal" }
+      ],
+      "probability": 0.38
+    },
+    {
+      "source": "telephone",
+      "variants": [{ "value": "telaphone", "weight": 2 }, { "value": "telphone" }],
+      "probability": 0.3
+    },
+    {
+      "source": "temperature",
+      "variants": [
+        { "value": "temperture", "weight": 2 },
+        { "value": "teamerature" },
+        { "value": "temparature" },
+        { "value": "temparte" }
+      ],
+      "probability": 0.44
+    },
+    {
+      "source": "thank",
+      "variants": [{ "value": "thak", "weight": 2 }, { "value": "think" }],
+      "probability": 0.22
+    },
+    {
+      "source": "their",
+      "variants": [{ "value": "ther", "weight": 2 }, { "value": "theri" }, { "value": "thier" }, { "value": "the" }],
+      "probability": 0.3
+    },
+    {
+      "source": "there",
+      "variants": [{ "value": "ther", "weight": 2 }, { "value": "tere" }, { "value": "thar" }, { "value": "thare" }],
+      "probability": 0.3
+    },
+    {
+      "source": "therefore",
+      "variants": [{ "value": "therefoe", "weight": 2 }, { "value": "therefor" }, { "value": "therfore" }],
+      "probability": 0.32
+    },
+    {
+      "source": "these",
+      "variants": [{ "value": "theese", "weight": 2 }, { "value": "tes" }, { "value": "the" }, { "value": "theas" }],
+      "probability": 0.3
+    },
+    {
+      "source": "thing",
+      "variants": [{ "value": "thign", "weight": 2 }, { "value": "thnig" }, { "value": "then" }, { "value": "thin" }],
+      "probability": 0.3
+    },
+    {
+      "source": "things",
+      "variants": [{ "value": "thigns", "weight": 2 }, { "value": "thigsn" }, { "value": "thnigs" }, { "value": "thigs" }],
+      "probability": 0.38
+    },
+    {
+      "source": "think",
+      "variants": [{ "value": "thikn", "weight": 2 }, { "value": "thiunk" }, { "value": "thick" }, { "value": "thinck" }],
+      "probability": 0.3
+    },
+    {
+      "source": "third",
+      "variants": [{ "value": "thrid", "weight": 2 }, { "value": "their" }, { "value": "therd" }, { "value": "thurd" }],
+      "probability": 0.26
+    },
+    {
+      "source": "those",
+      "variants": [{ "value": "thsoe", "weight": 2 }, { "value": "thoes" }, { "value": "thoese" }, { "value": "thos" }],
+      "probability": 0.26
+    },
+    {
+      "source": "though",
+      "variants": [{ "value": "tho", "weight": 2 }, { "value": "thou" }, { "value": "thow" }, { "value": "through" }],
+      "probability": 0.34
+    },
+    {
+      "source": "thought",
+      "variants": [{ "value": "thont", "weight": 2 }, { "value": "thorght" }, { "value": "thorught" }, { "value": "thot" }],
+      "probability": 0.38
+    },
+    {
+      "source": "thread",
+      "variants": [{ "value": "thred", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "three",
+      "variants": [{ "value": "threee", "weight": 2 }, { "value": "thee" }, { "value": "there" }, { "value": "tree" }],
+      "probability": 0.26
+    },
+    {
+      "source": "through",
+      "variants": [{ "value": "throught", "weight": 2 }, { "value": "thru" }, { "value": "throut" }, { "value": "throw" }],
+      "probability": 0.34
+    },
+    {
+      "source": "times",
+      "variants": [{ "value": "time", "weight": 2 }, { "value": "tims" }],
+      "probability": 0.22
+    },
+    {
+      "source": "title",
+      "variants": [{ "value": "tittle", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "today",
+      "variants": [{ "value": "todya", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "together",
+      "variants": [{ "value": "togather", "weight": 2 }, { "value": "togehter" }, { "value": "togethers" }],
+      "probability": 0.32
+    },
+    {
+      "source": "tomorrow",
+      "variants": [{ "value": "tommorrow", "weight": 2 }, { "value": "tomorow" }, { "value": "tommorow" }],
+      "probability": 0.32
+    },
+    {
+      "source": "tools",
+      "variants": [{ "value": "toles", "weight": 2 }, { "value": "tooles" }],
+      "probability": 0.22
+    },
+    {
+      "source": "total",
+      "variants": [{ "value": "totle", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "track",
+      "variants": [{ "value": "trak", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "trade",
+      "variants": [{ "value": "trad", "weight": 2 }, { "value": "trede" }],
+      "probability": 0.22
+    },
+    {
+      "source": "training",
+      "variants": [{ "value": "taining", "weight": 2 }, { "value": "taning" }, { "value": "train" }, { "value": "traing" }],
+      "probability": 0.38
+    },
+    {
+      "source": "travel",
+      "variants": [{ "value": "travell", "weight": 2 }, { "value": "travill" }, { "value": "travle" }],
+      "probability": 0.32
+    },
+    {
+      "source": "tuesday",
+      "variants": [{ "value": "teusday", "weight": 2 }, { "value": "tusday" }, { "value": "tuseday" }],
+      "probability": 0.32
+    },
+    {
+      "source": "under",
+      "variants": [{ "value": "undr", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "understand",
+      "variants": [
+        { "value": "udderstand", "weight": 2 },
+        { "value": "uderstand" },
+        { "value": "udhirsand" },
+        { "value": "unberstand" }
+      ],
+      "probability": 0.44
+    },
+    {
+      "source": "union",
+      "variants": [{ "value": "unioun", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "unique",
+      "variants": [{ "value": "uneque", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "united",
+      "variants": [{ "value": "unighted", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "university",
+      "variants": [
+        { "value": "univeristy", "weight": 2 },
+        { "value": "univesity" },
+        { "value": "unerversity" },
+        { "value": "universaty" }
+      ],
+      "probability": 0.44
+    },
+    {
+      "source": "until",
+      "variants": [{ "value": "untill", "weight": 2 }, { "value": "untl" }],
+      "probability": 0.22
+    },
+    {
+      "source": "using",
+      "variants": [{ "value": "useing", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "usually",
+      "variants": [{ "value": "usally", "weight": 2 }, { "value": "usualy" }, { "value": "usal" }, { "value": "usaly" }],
+      "probability": 0.38
+    },
+    {
+      "source": "value",
+      "variants": [{ "value": "vaule", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "various",
+      "variants": [{ "value": "vaires", "weight": 2 }, { "value": "vairious" }, { "value": "vairous" }, { "value": "vairouse" }],
+      "probability": 0.38
+    },
+    {
+      "source": "version",
+      "variants": [{ "value": "verison", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "visit",
+      "variants": [{ "value": "visite", "weight": 2 }, { "value": "vist" }, { "value": "viste" }],
+      "probability": 0.24
+    },
+    {
+      "source": "voice",
+      "variants": [{ "value": "voise", "weight": 2 }, { "value": "vose" }],
+      "probability": 0.22
+    },
+    {
+      "source": "volume",
+      "variants": [{ "value": "valume", "weight": 2 }, { "value": "volum" }],
+      "probability": 0.3
+    },
+    {
+      "source": "wanted",
+      "variants": [{ "value": "wnated", "weight": 2 }, { "value": "wald" }, { "value": "wan" }, { "value": "want" }],
+      "probability": 0.38
+    },
+    {
+      "source": "watch",
+      "variants": [{ "value": "wach", "weight": 2 }, { "value": "wacth" }, { "value": "whatch" }, { "value": "whotch" }],
+      "probability": 0.28
+    },
+    {
+      "source": "water",
+      "variants": [{ "value": "wather", "weight": 2 }, { "value": "watter" }, { "value": "weter" }],
+      "probability": 0.24
+    },
+    {
+      "source": "weather",
+      "variants": [{ "value": "wether", "weight": 2 }, { "value": "whether" }, { "value": "whetter" }],
+      "probability": 0.32
+    },
+    {
+      "source": "wednesday",
+      "variants": [{ "value": "wendsay", "weight": 2 }, { "value": "wensday" }, { "value": "wedensday" }],
+      "probability": 0.32
+    },
+    {
+      "source": "weeks",
+      "variants": [{ "value": "week", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "weight",
+      "variants": [{ "value": "weght", "weight": 2 }, { "value": "weigth" }, { "value": "wieght" }],
+      "probability": 0.32
+    },
+    {
+      "source": "welcome",
+      "variants": [{ "value": "wellcome", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "western",
+      "variants": [{ "value": "westen", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "where",
+      "variants": [{ "value": "ware", "weight": 2 }, { "value": "wee" }, { "value": "wer" }, { "value": "were" }],
+      "probability": 0.3
+    },
+    {
+      "source": "whether",
+      "variants": [{ "value": "wether", "weight": 2 }, { "value": "weather" }, { "value": "wheather" }, { "value": "whetherr" }],
+      "probability": 0.34
+    },
+    {
+      "source": "which",
+      "variants": [{ "value": "whcih", "weight": 2 }, { "value": "whic" }, { "value": "whihc" }, { "value": "wich" }],
+      "probability": 0.3
+    },
+    {
+      "source": "while",
+      "variants": [{ "value": "wile", "weight": 2 }, { "value": "wilh" }, { "value": "will" }],
+      "probability": 0.24
+    },
+    {
+      "source": "white",
+      "variants": [{ "value": "wite", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "whole",
+      "variants": [{ "value": "wohle", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "window",
+      "variants": [{ "value": "windo", "weight": 2 }, { "value": "wondow" }],
+      "probability": 0.3
+    },
+    {
+      "source": "windows",
+      "variants": [{ "value": "windous", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "wireless",
+      "variants": [{ "value": "wirless", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "within",
+      "variants": [{ "value": "withing", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "without",
+      "variants": [{ "value": "wathout", "weight": 2 }, { "value": "wethout" }, { "value": "whithout" }, { "value": "with" }],
+      "probability": 0.34
+    },
+    {
+      "source": "woman",
+      "variants": [{ "value": "women", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "women",
+      "variants": [{ "value": "wame", "weight": 2 }, { "value": "wamen" }, { "value": "wanmen" }, { "value": "weman" }],
+      "probability": 0.3
+    },
+    {
+      "source": "working",
+      "variants": [{ "value": "wokring", "weight": 2 }, { "value": "wroking" }, { "value": "warking" }, { "value": "woking" }],
+      "probability": 0.34
+    },
+    {
+      "source": "works",
+      "variants": [{ "value": "work", "weight": 2 }],
+      "probability": 0.2
+    },
+    {
+      "source": "world",
+      "variants": [{ "value": "wald", "weight": 2 }, { "value": "wold" }, { "value": "word" }, { "value": "worde" }],
+      "probability": 0.3
+    },
+    {
+      "source": "would",
+      "variants": [{ "value": "woudl", "weight": 2 }, { "value": "whould" }, { "value": "wod" }, { "value": "woild" }],
+      "probability": 0.3
+    },
+    {
+      "source": "write",
+      "variants": [{ "value": "wriet", "weight": 2 }, { "value": "wire" }, { "value": "wrigt" }],
+      "probability": 0.24
+    },
+    {
+      "source": "writing",
+      "variants": [{ "value": "writting", "weight": 2 }, { "value": "wirting" }, { "value": "writeing" }],
+      "probability": 0.32
+    },
+    {
+      "source": "written",
+      "variants": [{ "value": "writen", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "years",
+      "variants": [{ "value": "yeasr", "weight": 2 }, { "value": "yeras" }, { "value": "yersa" }, { "value": "yares" }],
+      "probability": 0.3
+    },
+    {
+      "source": "yellow",
+      "variants": [{ "value": "yello", "weight": 2 }],
+      "probability": 0.28
+    },
+    {
+      "source": "young",
+      "variants": [{ "value": "yoand", "weight": 2 }, { "value": "yong" }, { "value": "yorug" }, { "value": "youg" }],
+      "probability": 0.28
+    }
+  ]
+}

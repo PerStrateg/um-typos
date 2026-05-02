@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "language": "en",
+  "source": "reference/legacy/data/en.js",
+  "notes": "English currently uses compromise for NLP. Legacy language patterns are preserved in language-hints.json for metadata and future fallbacks."
+}

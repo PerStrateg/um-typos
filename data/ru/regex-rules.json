@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "language": "ru",
+  "rules": [
+    { "id": "tsya-to-tsa", "pattern": "тся\\b|ться\\b", "replacement": "ца", "probability": 0.75 },
+    { "id": "ogo-to-ova", "pattern": "ого\\b", "replacement": "ова", "probability": 0.38 },
+    { "id": "ego-to-evo", "pattern": "его\\b", "replacement": "ево", "probability": 0.35 },
+    { "id": "chto-to-shto", "pattern": "\\bчто\\b", "replacement": "што", "probability": 0.7 },
+    { "id": "voobsche-to-vasche", "pattern": "вообще", "replacement": "ваще", "probability": 0.65 },
+    { "id": "seychas-to-schas", "pattern": "сейчас", "replacement": "щас", "probability": 0.7 },
+    { "id": "pochemu-to-pachimu", "pattern": "почему", "replacement": "пачиму", "probability": 0.62 },
+    { "id": "potomu-to-patamu", "pattern": "потому", "replacement": "патаму", "probability": 0.62 },
+    { "id": "konetchno-to-kaneshno", "pattern": "конечно", "replacement": "канешно", "probability": 0.6 },
+    { "id": "final-vowel-stretch", "pattern": "([аеёиоуыэюя])\\b", "replacement": "$1аа", "probability": 0.38 },
+    { "id": "kak-to-kaaak", "pattern": "\\bкак\\b", "replacement": "кааак", "probability": 0.52 },
+    { "id": "tak-to-taaak", "pattern": "\\bтак\\b", "replacement": "тааак", "probability": 0.55 },
+    { "id": "ochen-to-ooochen", "pattern": "\\bочень\\b", "replacement": "ооочень", "probability": 0.58 },
+    { "id": "slova-to-slovechki", "pattern": "\\bслова\\b", "replacement": "словечки", "probability": 0.48 },
+    { "id": "prostym-to-pravilcam", "pattern": "\\bправилам\\b", "replacement": "правильцам", "probability": 0.28 }
+  ]
+}

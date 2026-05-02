@@ -1,0 +1,22 @@
+[
+  {
+    "id": "readme-en",
+    "language": "en",
+    "text": "This application transforms text into something that sounds more like something a \"bimbo\" might write. This is done by inserting some words with little meaning like \"like\", \"um\" and \"basically\" into reasonable places in sentences using natural language processing. Words are also misspelled using a curated list of misspellings and some rules (like replacing tt with t in words). The curated list of misspellings is also used to replace words with synonyms that sound more bimbo-ish, or mean something slightly different (ex: then -> than). In addition, numbers like sixty-three, or 1238, or 15003 are able to be scrambled and rounded."
+  },
+  {
+    "id": "numbers-en",
+    "language": "en",
+    "text": "The report mentions sixty-three users, 1238 rows, and 15003 events. It should stay readable even when the style gets stronger."
+  },
+  {
+    "id": "readme-ru",
+    "language": "ru",
+    "text": "Это приложение превращает обычный текст в то, как могла бы писать типичная блондинка. Слова специально искажаются по готовому списку типичных ошибок и простым правилам. Кроме того, числа вроде шестьдесят три, 1238 или 15003 можно запутывать и округлять."
+  },
+  {
+    "id": "numbers-ru",
+    "language": "ru",
+    "text": "В тестовом наборе есть шестьдесят три коротких сообщения, 1238 строк и 15003 события. Результат должен быть смешным, но не разваливаться."
+  }
+]

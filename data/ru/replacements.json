@@ -1,0 +1,151 @@
+{
+  "version": 1,
+  "language": "ru",
+  "entries": [
+    {
+      "source": "вообще",
+      "variants": [{ "value": "ваще", "weight": 2 }, { "value": "вобще" }],
+      "probability": 0.5
+    },
+    {
+      "source": "думаю",
+      "variants": [{ "value": "думаю типа" }, { "value": "ну я так думаю" }],
+      "probability": 0.32
+    },
+    {
+      "source": "интересно",
+      "variants": [{ "value": "прикольно" }, { "value": "интиресно" }],
+      "probability": 0.38
+    },
+    {
+      "source": "конечно",
+      "variants": [{ "value": "канешно", "weight": 2 }, { "value": "конешно" }],
+      "probability": 0.45
+    },
+    {
+      "source": "короче",
+      "variants": [{ "value": "кароче" }],
+      "probability": 0.36
+    },
+    {
+      "source": "нравится",
+      "variants": [{ "value": "нравица", "weight": 2 }, { "value": "так нравицца" }],
+      "probability": 0.42
+    },
+    {
+      "source": "очень",
+      "variants": [{ "value": "оч", "weight": 2 }, { "value": "очень-преочень" }, { "value": "ооочень" }],
+      "probability": 0.42
+    },
+    {
+      "source": "пожалуйста",
+      "variants": [{ "value": "пж" }, { "value": "плиз" }],
+      "probability": 0.35
+    },
+    {
+      "source": "почему",
+      "variants": [{ "value": "пачиму" }],
+      "probability": 0.45
+    },
+    {
+      "source": "привет",
+      "variants": [{ "value": "приветик", "weight": 2 }, { "value": "превед" }],
+      "probability": 0.4
+    },
+    {
+      "source": "сейчас",
+      "variants": [{ "value": "щас", "weight": 2 }, { "value": "ща" }, { "value": "щааас" }],
+      "probability": 0.52
+    },
+    {
+      "source": "спасибо",
+      "variants": [{ "value": "спс" }, { "value": "пасиба" }, { "value": "пасибааа" }],
+      "probability": 0.36
+    },
+    {
+      "source": "хорошо",
+      "variants": [{ "value": "харашо" }, { "value": "норм" }],
+      "probability": 0.38
+    },
+    {
+      "source": "хочу",
+      "variants": [{ "value": "хачу" }],
+      "probability": 0.42
+    },
+    {
+      "source": "что",
+      "variants": [{ "value": "што" }, { "value": "чо" }],
+      "probability": 0.48
+    },
+    {
+      "source": "чтобы",
+      "variants": [{ "value": "шоб" }],
+      "probability": 0.4
+    },
+    {
+      "source": "это",
+      "variants": [{ "value": "эта" }],
+      "probability": 0.34
+    },
+    {
+      "source": "девушка",
+      "variants": [{ "value": "девчонка" }, { "value": "девачка" }],
+      "probability": 0.32
+    },
+    {
+      "source": "приложение",
+      "variants": [{ "value": "аппчик", "weight": 2 }, { "value": "приложуха" }],
+      "probability": 0.48
+    },
+    {
+      "source": "текст",
+      "variants": [{ "value": "текстик", "weight": 2 }, { "value": "текст" }],
+      "probability": 0.42
+    },
+    {
+      "source": "типичная",
+      "variants": [{ "value": "типичная такая" }, { "value": "такая прям типичная" }],
+      "probability": 0.38
+    },
+    {
+      "source": "блондинка",
+      "variants": [{ "value": "блондиночка", "weight": 2 }, { "value": "бимбочка" }],
+      "probability": 0.55
+    },
+    {
+      "source": "речь",
+      "variants": [{ "value": "реченьку" }, { "value": "речь" }],
+      "probability": 0.28
+    },
+    {
+      "source": "слова",
+      "variants": [{ "value": "словечки", "weight": 2 }, { "value": "словца" }],
+      "probability": 0.48
+    },
+    {
+      "source": "числа",
+      "variants": [{ "value": "циферки", "weight": 2 }, { "value": "чиселки" }],
+      "probability": 0.55
+    },
+    {
+      "source": "можно",
+      "variants": [{ "value": "можна" }, { "value": "как бы можно" }],
+      "probability": 0.35
+    },
+    {
+      "source": "например",
+      "variants": [{ "value": "ну например" }, { "value": "напримерчик" }],
+      "probability": 0.4
+    },
+    {
+      "source": "местах",
+      "variants": [{ "value": "местечках" }],
+      "probability": 0.34
+    },
+    {
+      "source": "языка",
+      "variants": [{ "value": "язычка" }, { "value": "языка" }],
+      "probability": 0.3
+    }
+  ]
+}
