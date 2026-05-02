@@ -6,3 +6,5 @@ dist/*
 *.map
 .idea/
 reference/
+.playwright-cli/
+output/

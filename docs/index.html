@@ -1,0 +1,846 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>um-typos demo</title>
+      <link rel="icon" href="data:,">
+      <style>
+         :root {
+            color-scheme: light;
+            --ink: #191b22;
+            --muted: #5b6170;
+            --line: #d9dee8;
+            --paper: #f8f9fb;
+            --panel: #ffffff;
+            --accent: #0f7c7a;
+            --accent-2: #b0456f;
+            --accent-3: #8a6b12;
+            --accent-4: #375c9f;
+            --shadow: 0 18px 45px rgba(28, 31, 40, 0.09);
+         }
+
+         * {
+            box-sizing: border-box;
+         }
+
+         body {
+            margin: 0;
+            min-height: 100vh;
+            background:
+               linear-gradient(90deg, rgba(15, 124, 122, 0.08), transparent 36%),
+               linear-gradient(180deg, #ffffff 0%, var(--paper) 58%, #eef2f6 100%);
+            color: var(--ink);
+            font-family:
+               Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+               "Segoe UI", sans-serif;
+         }
+
+         button,
+         input,
+         select,
+         textarea {
+            font: inherit;
+         }
+
+         button {
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            background: #ffffff;
+            color: var(--ink);
+            cursor: pointer;
+         }
+
+         button:hover {
+            border-color: var(--accent);
+         }
+
+         .page {
+            width: min(1440px, calc(100% - 32px));
+            margin: 0 auto;
+            padding: 24px 0 36px;
+         }
+
+         .topbar {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) auto;
+            align-items: end;
+            gap: 16px;
+            margin-bottom: 16px;
+         }
+
+         h1 {
+            margin: 0;
+            font-size: clamp(2rem, 4vw, 4.5rem);
+            line-height: 0.95;
+         }
+
+         .subtitle {
+            margin: 10px 0 0;
+            max-width: 780px;
+            color: var(--muted);
+            font-size: 1rem;
+            line-height: 1.5;
+         }
+
+         .stats {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(96px, 1fr));
+            gap: 8px;
+            min-width: 310px;
+         }
+
+         .stat {
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.82);
+            padding: 10px;
+         }
+
+         .stat span {
+            display: block;
+            color: var(--muted);
+            font-size: 0.76rem;
+         }
+
+         .stat strong {
+            display: block;
+            margin-top: 4px;
+            font-size: 1.1rem;
+         }
+
+         .presets {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 14px;
+         }
+
+         .presets button {
+            padding: 9px 12px;
+            font-weight: 700;
+         }
+
+         .presets button.active {
+            border-color: #083f3e;
+            background: #083f3e;
+            color: #ffffff;
+         }
+
+         .settings {
+            display: grid;
+            grid-template-columns: 0.75fr 1.15fr 1.15fr;
+            gap: 12px;
+            margin-bottom: 16px;
+         }
+
+         fieldset {
+            min-width: 0;
+            margin: 0;
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.88);
+            box-shadow: var(--shadow);
+         }
+
+         legend {
+            padding: 0 8px;
+            font-weight: 800;
+            color: #2b303a;
+         }
+
+         .group {
+            display: grid;
+            gap: 10px;
+            padding: 14px;
+         }
+
+         label {
+            display: grid;
+            gap: 6px;
+            min-width: 0;
+            color: #2a303b;
+            font-size: 0.86rem;
+            font-weight: 700;
+         }
+
+         select,
+         input[type="text"],
+         textarea {
+            width: 100%;
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            background: #ffffff;
+            color: var(--ink);
+            outline: none;
+         }
+
+         select,
+         input[type="text"] {
+            min-height: 38px;
+            padding: 8px 10px;
+         }
+
+         select:focus,
+         input[type="text"]:focus,
+         textarea:focus {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px rgba(15, 124, 122, 0.14);
+         }
+
+         input[type="range"] {
+            width: 100%;
+            accent-color: var(--accent);
+         }
+
+         .filter-row {
+            display: grid;
+            grid-template-columns: minmax(132px, 0.9fr) minmax(110px, 1fr) minmax(110px, 1fr);
+            gap: 10px;
+            align-items: center;
+            padding: 8px 0;
+            border-top: 1px solid #edf0f5;
+         }
+
+         .filter-row:first-child {
+            border-top: 0;
+         }
+
+         .toggle {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+         }
+
+         .toggle input {
+            width: 18px;
+            height: 18px;
+            accent-color: var(--accent-2);
+         }
+
+         .range-label {
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 8px;
+            align-items: center;
+            color: var(--muted);
+            font-size: 0.78rem;
+            font-weight: 700;
+         }
+
+         .range-label input {
+            grid-column: 1 / -1;
+         }
+
+         .workspace {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+            gap: 14px;
+         }
+
+         .pane {
+            min-width: 0;
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            background: var(--panel);
+            box-shadow: var(--shadow);
+            overflow: hidden;
+         }
+
+         .pane-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            padding: 12px 14px;
+            border-bottom: 1px solid var(--line);
+            background: #fbfcfe;
+         }
+
+         .pane-title {
+            margin: 0;
+            font-size: 0.95rem;
+            font-weight: 900;
+         }
+
+         .language-badge {
+            border-radius: 999px;
+            background: #eef6f5;
+            color: #075654;
+            padding: 5px 9px;
+            font-size: 0.75rem;
+            font-weight: 900;
+         }
+
+         textarea {
+            display: block;
+            min-height: 340px;
+            resize: vertical;
+            border: 0;
+            border-radius: 0;
+            padding: 16px;
+            line-height: 1.55;
+            font-size: 1rem;
+         }
+
+         #outputText {
+            background: #fffdfa;
+         }
+
+         .source-tools {
+            display: grid;
+            gap: 10px;
+            padding: 12px 14px 14px;
+            border-top: 1px solid var(--line);
+            background: #fbfcfe;
+         }
+
+         .source-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+         }
+
+         .source-buttons button {
+            padding: 8px 10px;
+            color: #2b303a;
+         }
+
+         .pipeline {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            padding: 12px 14px;
+            border-top: 1px solid var(--line);
+            background: #fbfcfe;
+         }
+
+         .chip {
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            padding: 7px 9px;
+            background: #ffffff;
+            color: var(--muted);
+            font-size: 0.78rem;
+            font-weight: 900;
+         }
+
+         .chip.applied {
+            border-color: rgba(15, 124, 122, 0.45);
+            background: rgba(15, 124, 122, 0.1);
+            color: #075654;
+         }
+
+         .details {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+            gap: 14px;
+            margin-top: 14px;
+         }
+
+         .change-list {
+            max-height: 240px;
+            overflow: auto;
+            padding: 10px 14px 14px;
+         }
+
+         .change-item {
+            display: grid;
+            grid-template-columns: 110px minmax(0, 1fr);
+            gap: 10px;
+            padding: 9px 0;
+            border-bottom: 1px solid #edf0f5;
+            font-size: 0.88rem;
+         }
+
+         .change-item:last-child {
+            border-bottom: 0;
+         }
+
+         .change-filter {
+            color: var(--accent-4);
+            font-weight: 900;
+         }
+
+         .change-value {
+            overflow-wrap: anywhere;
+            color: #2c3038;
+         }
+
+         .source-note {
+            color: var(--muted);
+            font-size: 0.82rem;
+            line-height: 1.45;
+         }
+
+         .meter {
+            height: 12px;
+            border-radius: 8px;
+            overflow: hidden;
+            background: #edf0f5;
+         }
+
+         .meter span {
+            display: block;
+            width: 0%;
+            height: 100%;
+            background: linear-gradient(90deg, var(--accent), var(--accent-2), var(--accent-3));
+         }
+
+         @media (max-width: 1100px) {
+            .topbar,
+            .settings,
+            .workspace,
+            .details {
+               grid-template-columns: 1fr;
+            }
+
+            .stats {
+               min-width: 0;
+            }
+         }
+
+         @media (max-width: 640px) {
+            .page {
+               width: min(100% - 20px, 1440px);
+               padding-top: 16px;
+            }
+
+            .filter-row {
+               grid-template-columns: 1fr;
+               gap: 6px;
+            }
+
+            .stats {
+               grid-template-columns: 1fr;
+            }
+
+            textarea {
+               min-height: 260px;
+            }
+         }
+      </style>
+   </head>
+   <body>
+      <main class="page">
+         <section class="topbar" aria-labelledby="title">
+            <div>
+               <h1 id="title">um-typos</h1>
+               <p class="subtitle">Live presentation for deterministic typo styling, filler insertions, number fuzzing, language packs, and filter-level tuning.</p>
+            </div>
+            <div class="stats" aria-live="polite">
+               <div class="stat">
+                  <span>Language</span>
+                  <strong id="languageStat">en</strong>
+               </div>
+               <div class="stat">
+                  <span>Changes</span>
+                  <strong id="changesStat">0</strong>
+               </div>
+               <div class="stat">
+                  <span>Output length</span>
+                  <strong id="lengthStat">0</strong>
+               </div>
+            </div>
+         </section>
+
+         <section class="presets" aria-label="Presets">
+            <button type="button" data-preset="clean">Clean</button>
+            <button type="button" data-preset="balanced" class="active">Balanced</button>
+            <button type="button" data-preset="strong">Strong</button>
+            <button type="button" data-preset="numbers">Numbers</button>
+            <button type="button" data-preset="ru">Russian</button>
+         </section>
+
+         <section class="settings" aria-label="Transform settings">
+            <fieldset>
+               <legend>Run</legend>
+               <div class="group">
+                  <label>
+                     Language
+                     <select id="language">
+                        <option value="auto">Auto</option>
+                        <option value="en">English</option>
+                        <option value="ru">Russian</option>
+                     </select>
+                  </label>
+                  <label>
+                     Seed
+                     <input id="seed" type="text" value="presentation-seed" spellcheck="false">
+                  </label>
+                  <label>
+                     <span class="range-label">Global intensity <output id="intensityValue">0.85</output></span>
+                     <input id="intensity" type="range" min="0" max="1.5" value="0.85" step="0.05">
+                  </label>
+                  <div class="meter" aria-hidden="true"><span id="intensityMeter"></span></div>
+               </div>
+            </fieldset>
+
+            <fieldset>
+               <legend>Words</legend>
+               <div class="group" id="wordsControls"></div>
+            </fieldset>
+
+            <fieldset>
+               <legend>Flow</legend>
+               <div class="group" id="flowControls"></div>
+            </fieldset>
+         </section>
+
+         <section class="workspace" aria-label="Text comparison">
+            <div class="pane">
+               <div class="pane-header">
+                  <h2 class="pane-title">Source text</h2>
+                  <span class="language-badge" id="sourceBadge">editable</span>
+               </div>
+               <textarea id="sourceText" spellcheck="false"></textarea>
+               <div class="source-tools">
+                  <div class="source-buttons" aria-label="Text generator">
+                     <button type="button" data-sample="product">Product note</button>
+                     <button type="button" data-sample="space">Space notes</button>
+                     <button type="button" data-sample="shopping">Shopping</button>
+                     <button type="button" data-sample="numbers">Numbers</button>
+                     <button type="button" data-sample="ru">Russian note</button>
+                     <button type="button" id="mixSample">Generate mix</button>
+                  </div>
+                  <div class="source-note" id="sampleSource">Prepared sample text</div>
+               </div>
+            </div>
+
+            <div class="pane">
+               <div class="pane-header">
+                  <h2 class="pane-title">Processed text</h2>
+                  <span class="language-badge" id="resultBadge">live</span>
+               </div>
+               <textarea id="outputText" readonly spellcheck="false"></textarea>
+               <div class="pipeline" id="pipeline" aria-label="Applied filters"></div>
+            </div>
+         </section>
+
+         <section class="details">
+            <div class="pane">
+               <div class="pane-header">
+                  <h2 class="pane-title">Change feed</h2>
+                  <span class="language-badge" id="feedBadge">0 items</span>
+               </div>
+               <div class="change-list" id="changeList"></div>
+            </div>
+            <div class="pane">
+               <div class="pane-header">
+                  <h2 class="pane-title">Current option shape</h2>
+                  <span class="language-badge">copyable</span>
+               </div>
+               <textarea id="optionsJson" readonly spellcheck="false"></textarea>
+            </div>
+         </section>
+      </main>
+
+      <script type="module">
+         import {
+            createTextTransformEngine,
+            englishPack,
+            russianPack
+         } from "./assets/um-typos.browser.js";
+
+         const filters = [
+            { id: "phraseReplacement", label: "Phrases", group: "words" },
+            { id: "dictionaryReplacement", label: "Dictionary", group: "words" },
+            { id: "misspelling", label: "Misspellings", group: "words" },
+            { id: "phraseInsertion", label: "Fillers", group: "flow" },
+            { id: "numberSimplification", label: "Numbers", group: "flow" },
+            { id: "emoji", label: "Emoji", group: "flow" }
+         ];
+
+         const samples = {
+            product: {
+               language: "en",
+               note: "Prepared product update",
+               text: "This library transforms plain text into a casual message while preserving punctuation, spacing, and the general shape of the document. The demo should make it easy to compare the original text with a transformed result.\n\nA product team can tune intensity, enable individual filters, and reuse the same seed to get deterministic output across repeated runs."
+            },
+            space: {
+               language: "en",
+               note: "Prepared sample inspired by public science pages",
+               text: "The solar system has eight planets, and the inner planets have solid surfaces. Scientists compare their size, temperature, atmosphere, and distance from the Sun.\n\nBeyond Mars, the outer planets are giant worlds with swirling gases, moons, rings, and long weather patterns."
+            },
+            shopping: {
+               language: "en",
+               note: "Prepared consumer-style sample",
+               text: "Before buying online, a shopper should compare sellers, read policies, and keep records of receipts and messages. Payment method matters when something goes wrong.\n\nA secure connection helps protect information, but a lock icon does not prove that a seller is honest."
+            },
+            numbers: {
+               language: "en",
+               note: "Prepared number-heavy sample",
+               text: "The report mentions sixty-three users, 1238 rows, and 15003 events. The next run has 42 notes, 760 comments, and 9800 imported records.\n\nNumbers are useful for showing deterministic fuzzing because they change in a visible way without losing the sentence around them."
+            },
+            ru: {
+               language: "ru",
+               note: "Prepared Russian sample",
+               text: "Это приложение превращает обычный текст в более разговорный вариант. Слова специально искажаются по готовому списку типичных ошибок и простым правилам.\n\nКроме того, числа вроде шестьдесят три, 1238 или 15003 можно запутывать и округлять, а результат остается повторяемым при одном и том же seed."
+            }
+         };
+
+         const presets = {
+            clean: {
+               language: "en",
+               intensity: 0.25,
+               seed: "clean-demo",
+               sample: "product",
+               filters: {
+                  phraseReplacement: [true, 0.25, 0.55],
+                  dictionaryReplacement: [true, 0.3, 0.6],
+                  misspelling: [false, 0.2, 0.3],
+                  phraseInsertion: [false, 0.2, 0.3],
+                  numberSimplification: [true, 0.25, 0.5],
+                  emoji: [false, 0.2, 0.2]
+               }
+            },
+            balanced: {
+               language: "en",
+               intensity: 0.85,
+               seed: "presentation-seed",
+               sample: "product",
+               filters: {
+                  phraseReplacement: [true, 0.9, 1],
+                  dictionaryReplacement: [true, 0.9, 1],
+                  misspelling: [true, 0.75, 0.9],
+                  phraseInsertion: [true, 0.7, 0.8],
+                  numberSimplification: [true, 0.95, 1],
+                  emoji: [false, 0.55, 0.5]
+               }
+            },
+            strong: {
+               language: "en",
+               intensity: 1.15,
+               seed: "strong-demo",
+               sample: "space",
+               filters: {
+                  phraseReplacement: [true, 1.15, 1],
+                  dictionaryReplacement: [true, 1.2, 1],
+                  misspelling: [true, 1.15, 1],
+                  phraseInsertion: [true, 1.1, 1],
+                  numberSimplification: [true, 1.1, 1],
+                  emoji: [true, 0.85, 0.85]
+               }
+            },
+            numbers: {
+               language: "en",
+               intensity: 1,
+               seed: "numbers-demo",
+               sample: "numbers",
+               filters: {
+                  phraseReplacement: [false, 0.4, 0.4],
+                  dictionaryReplacement: [false, 0.4, 0.4],
+                  misspelling: [false, 0.4, 0.4],
+                  phraseInsertion: [false, 0.4, 0.4],
+                  numberSimplification: [true, 1.4, 1],
+                  emoji: [false, 0.4, 0.4]
+               }
+            },
+            ru: {
+               language: "ru",
+               intensity: 1,
+               seed: "ru-demo",
+               sample: "ru",
+               filters: {
+                  phraseReplacement: [true, 1, 1],
+                  dictionaryReplacement: [true, 1, 1],
+                  misspelling: [true, 0.95, 1],
+                  phraseInsertion: [true, 0.9, 0.9],
+                  numberSimplification: [true, 1, 1],
+                  emoji: [true, 0.75, 0.7]
+               }
+            }
+         };
+
+         const fragments = [
+            "A release note explains 42 fixes, 760 new examples, and a smaller bundle for the next version.",
+            "The editor keeps paragraph breaks, punctuation, and short quoted words in place while filters run.",
+            "A support message should feel casual enough for a chat, but still readable after strong styling.",
+            "The Russian language pack has replacements, insertions, misspellings, number rules, and emoji tails.",
+            "The same seed gives the same output, which helps demos, tests, screenshots, and saved presets."
+         ];
+
+         const elements = {
+            language: document.querySelector("#language"),
+            seed: document.querySelector("#seed"),
+            intensity: document.querySelector("#intensity"),
+            intensityValue: document.querySelector("#intensityValue"),
+            intensityMeter: document.querySelector("#intensityMeter"),
+            sourceText: document.querySelector("#sourceText"),
+            outputText: document.querySelector("#outputText"),
+            wordsControls: document.querySelector("#wordsControls"),
+            flowControls: document.querySelector("#flowControls"),
+            languageStat: document.querySelector("#languageStat"),
+            changesStat: document.querySelector("#changesStat"),
+            lengthStat: document.querySelector("#lengthStat"),
+            sourceBadge: document.querySelector("#sourceBadge"),
+            resultBadge: document.querySelector("#resultBadge"),
+            pipeline: document.querySelector("#pipeline"),
+            changeList: document.querySelector("#changeList"),
+            feedBadge: document.querySelector("#feedBadge"),
+            optionsJson: document.querySelector("#optionsJson"),
+            sampleSource: document.querySelector("#sampleSource")
+         };
+
+         function renderControls() {
+            for (const filter of filters) {
+               const row = document.createElement("div");
+               row.className = "filter-row";
+               row.innerHTML = `
+                  <label class="toggle">
+                     <input type="checkbox" data-filter="${filter.id}" data-field="enabled">
+                     <span>${filter.label}</span>
+                  </label>
+                  <label>
+                     <span class="range-label">Intensity <output data-output="${filter.id}:intensity">1.00</output></span>
+                     <input type="range" min="0" max="1.5" step="0.05" data-filter="${filter.id}" data-field="intensity">
+                  </label>
+                  <label>
+                     <span class="range-label">Probability <output data-output="${filter.id}:probability">1.00</output></span>
+                     <input type="range" min="0" max="1" step="0.05" data-filter="${filter.id}" data-field="probability">
+                  </label>
+               `;
+               elements[filter.group === "words" ? "wordsControls" : "flowControls"].append(row);
+            }
+         }
+
+         function loadSample(name) {
+            const sample = samples[name];
+            if (!sample) return;
+            elements.sourceText.value = sample.text;
+            elements.sampleSource.textContent = sample.note;
+            elements.sourceBadge.textContent = sample.language;
+         }
+
+         function applyPreset(name) {
+            const preset = presets[name];
+            if (!preset) return;
+
+            document.querySelectorAll("[data-preset]").forEach((button) => {
+               button.classList.toggle("active", button.dataset.preset === name);
+            });
+
+            elements.language.value = preset.language;
+            elements.seed.value = preset.seed;
+            elements.intensity.value = preset.intensity;
+            loadSample(preset.sample);
+
+            for (const [id, values] of Object.entries(preset.filters)) {
+               const [enabled, intensity, probability] = values;
+               document.querySelector(`[data-filter="${id}"][data-field="enabled"]`).checked = enabled;
+               document.querySelector(`[data-filter="${id}"][data-field="intensity"]`).value = intensity;
+               document.querySelector(`[data-filter="${id}"][data-field="probability"]`).value = probability;
+            }
+
+            update();
+         }
+
+         function collectOptions() {
+            const filterOptions = {};
+            for (const filter of filters) {
+               const enabled = document.querySelector(`[data-filter="${filter.id}"][data-field="enabled"]`).checked;
+               const intensity = Number(document.querySelector(`[data-filter="${filter.id}"][data-field="intensity"]`).value);
+               const probability = Number(document.querySelector(`[data-filter="${filter.id}"][data-field="probability"]`).value);
+               filterOptions[filter.id] = { enabled, intensity, probability };
+            }
+
+            return {
+               language: elements.language.value,
+               intensity: Number(elements.intensity.value),
+               filters: filterOptions
+            };
+         }
+
+         function updateRangeLabels() {
+            elements.intensityValue.value = Number(elements.intensity.value).toFixed(2);
+            elements.intensityMeter.style.width = `${Math.min(Number(elements.intensity.value) / 1.5, 1) * 100}%`;
+
+            for (const filter of filters) {
+               for (const field of ["intensity", "probability"]) {
+                  const input = document.querySelector(`[data-filter="${filter.id}"][data-field="${field}"]`);
+                  const output = document.querySelector(`[data-output="${filter.id}:${field}"]`);
+                  output.value = Number(input.value).toFixed(2);
+               }
+            }
+         }
+
+         function update() {
+            updateRangeLabels();
+
+            const engine = createTextTransformEngine({
+               seed: elements.seed.value || "presentation-seed",
+               languages: [englishPack, russianPack],
+               defaultLanguage: "en"
+            });
+            const options = collectOptions();
+            const result = engine.transform(elements.sourceText.value, options);
+
+            elements.outputText.value = result.text;
+            elements.languageStat.textContent = result.language;
+            elements.changesStat.textContent = String(result.changes?.length ?? 0);
+            elements.lengthStat.textContent = String(result.text.length);
+            elements.resultBadge.textContent = `${result.language} output`;
+            elements.feedBadge.textContent = `${result.changes?.length ?? 0} items`;
+            elements.optionsJson.value = JSON.stringify(options, null, 3);
+            renderPipeline(result.appliedFilters ?? []);
+            renderChanges(result.changes ?? []);
+         }
+
+         function renderPipeline(applied) {
+            const appliedSet = new Set(applied);
+            elements.pipeline.innerHTML = filters.map((filter) => {
+               const active = appliedSet.has(filter.id) ? " applied" : "";
+               return `<span class="chip${active}">${filter.label}</span>`;
+            }).join("");
+         }
+
+         function renderChanges(changes) {
+            if (changes.length === 0) {
+               elements.changeList.innerHTML = `<div class="source-note">No changes for this combination.</div>`;
+               return;
+            }
+
+            elements.changeList.innerHTML = changes.slice(0, 80).map((change) => `
+               <div class="change-item">
+                  <span class="change-filter">${escapeHtml(change.filterId)}</span>
+                  <span class="change-value">${escapeHtml(change.from)} -> ${escapeHtml(change.to)}</span>
+               </div>
+            `).join("");
+         }
+
+         function escapeHtml(value) {
+            return String(value)
+               .replaceAll("&", "&amp;")
+               .replaceAll("<", "&lt;")
+               .replaceAll(">", "&gt;")
+               .replaceAll('"', "&quot;");
+         }
+
+         function generateMix() {
+            const shuffled = [...fragments].sort(() => Math.random() - 0.5);
+            elements.language.value = "auto";
+            elements.sourceText.value = `${shuffled.slice(0, 3).join(" ")}\n\n${shuffled.slice(3).join(" ")}`;
+            elements.sampleSource.textContent = "Generated from prepared fragments";
+            elements.sourceBadge.textContent = "mixed";
+            update();
+         }
+
+         renderControls();
+         applyPreset("balanced");
+
+         document.querySelectorAll("[data-preset]").forEach((button) => {
+            button.addEventListener("click", () => applyPreset(button.dataset.preset));
+         });
+         document.querySelectorAll("[data-sample]").forEach((button) => {
+            button.addEventListener("click", () => {
+               loadSample(button.dataset.sample);
+               update();
+            });
+         });
+         document.querySelector("#mixSample").addEventListener("click", generateMix);
+         document.addEventListener("input", (event) => {
+            if (event.target.closest("main")) update();
+         });
+      </script>
+   </body>
+</html>

@@ -32,6 +32,7 @@
    "scripts": {
       "typecheck": "tsc -p tsconfig.json",
       "build": "npm run typecheck && tsc -p tsconfig.types.json && node scripts/build-lib.mjs",
+      "build:pages": "npm run build && node scripts/build-pages.mjs",
       "test": "npm run build && node scripts/smoke-test.mjs",
       "playground": "npm run build --silent && node scripts/playground.mjs"
    },
